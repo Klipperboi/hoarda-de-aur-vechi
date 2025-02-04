@@ -6,6 +6,10 @@ body {
     padding: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .container {
     position: relative; /* Asigură-te că containerul este poziționat relativ */
     background-color: #fff;
@@ -104,27 +108,29 @@ body.dark-mode .text-section {
     margin: 0;
 }
 
-.sidebar li a, #modeToggle {
-    padding: 10px 15px;
-    font-size: 18px;
-    font-family: "Noto Sans KR", Georgia, serif;
-    color: white;
-    background: #333;
-    display: block;
-    text-decoration: none;
-    width: 100%;
-    text-align: left;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
+#modeToggle,
+.dropbtn,
+.dropdown-content a {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-family: "Noto Sans KR", Georgia, serif;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: background 0.3s;
 }
 
-.sidebar li a:hover, #modeToggle:hover {
-    background: #ed143d;
+#modeToggle:hover,
+.dropbtn:hover,
+.dropdown-content a:hover {
+  background-color: #ed143d;
 }
 
 body.dark-mode a {
-    color: gray;
+    color: white;
 }
 
 body.dark-mode .sidebar {
@@ -173,3 +179,93 @@ body.dark-mode .sidebar {
 .text-section p {
     font-size: 18px; /* sau orice valoare dorești, de ex. 20px, 1.2em, etc. */
 }
+
+/* Dropdown în sidebar */
+.dropdown {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dropbtn:hover {
+    background-color: #ed143d;
+  }
+  
+  /* Dropdown-content – asigură afișarea butoanelor unul sub altul */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;  /* asigură că fiecare link este pe linie separată */
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: "Noto Sans KR", Georgia, serif;
+    text-align: left;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ed143d;
+  }
+
+  h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #prolog header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0 2px; /* 10px sus, 2px jos */
+}
+
+
+.section-header .info {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;              /* Reducem distanța între titlu și info */
+    text-transform: uppercase;
+  }
+
+  .separator {
+    border: none;
+    border-top: 2px solid #333;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .separator.thick {
+  border-top: 4px solid #333;
+}
+
+.info::first-letter {
+    color: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    margin-right: 0 !important;
+  }
+  
