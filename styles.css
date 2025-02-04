@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', serif;
+    font-family: "Noto Sans KR", Georgia, serif;
     text-align: center;
     background-color: #f4f4f4;
     margin: 0;
@@ -10,18 +10,51 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 80%;
+    width: 60%;
+    max-width: 800px;
     margin: auto;
     border-radius: 10px;
 }
 
 img {
-    width: 50%;
+    width: 70%;
     height: auto;
     margin-bottom: 20px;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+}
+
+/* Pop-up pentru imagine */
+.popup img {
+    max-width: 400%; 
+    max-height: 150vh; 
+    height: auto; 
+    object-fit: contain;
+    overflow: auto;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
 }
 
 .text-section {
@@ -35,10 +68,9 @@ img {
     color: #ed143d;
     font-size: 36px;
     font-weight: bold;
-    line-height: 0.9; /* Reduce înălțimea liniei doar pentru prima literă */
+    line-height: 0.9;
     margin-right: 5px;
 }
-
 
 body.dark-mode {
     background-color: #333;
@@ -75,7 +107,7 @@ body.dark-mode .text-section {
 .sidebar li a, #modeToggle {
     padding: 10px 15px;
     font-size: 18px;
-    font-family: 'Times New Roman', serif;
+    font-family: "Noto Sans KR", Georgia, serif;
     color: white;
     background: #333;
     display: block;
@@ -88,7 +120,7 @@ body.dark-mode .text-section {
 }
 
 .sidebar li a:hover, #modeToggle:hover {
-    background: #555;
+    background: #ed143d;
 }
 
 body.dark-mode a {
@@ -129,4 +161,3 @@ body.dark-mode .sidebar {
     opacity: 1;
     visibility: visible;
 }
-
