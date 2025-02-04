@@ -1,42 +1,96 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoarda de Aur</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoarda de Aur</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div id="particles-js"></div>
+<body id="home">
+  <!-- Efectul de particule în fundal -->
+  <div id="particles-js"></div>
+  
+  <!-- Sidebar cu butoanele "Schimbă modul" și "Cuprins" -->
+  <div class="sidebar" id="sidebar">
+    <button id="modeToggle">Schimbă modul</button>
+    <div class="dropdown">
+      <button class="dropbtn">Cuprins</button>
+      <div class="dropdown-content">
+        <a href="#home">Acasă</a>
+        <a href="#prolog">Prolog</a>
+        <!-- Poți adăuga mai multe linkuri către secțiuni noi -->
+      </div>
+    </div>
+  </div>
+  
+  <!-- Containerul principal (toate conținutul este modularizat aici) -->
+  <div class="main-container">
+    <!-- Secțiunea de deschidere: date generale, titlu, imagine, text introductiv -->
     <div class="highlight-box">
-        <div class="container">
-            <h2>1242-1502</h2>
-            <h1>HOARDA DE AUR</h1>
-            <img src="https://i.pinimg.com/1200x/d3/9a/b3/d39ab39b644184525387f82753585ec0.jpg" alt="Hoarda de Aur">
-            <div class="text-section">
-                <p>
-                    Hoarda de Aur a fost inițial un hanat mongol și ulterior turcizat, înființat în secolul al XIII-lea și originar ca sectorul de nord-vest al Imperiului Mongol. Odată cu fragmentarea Imperiului Mongol după 1259, acesta a devenit un hanat separat funcțional. Este cunoscut și sub numele de Kipchak Khanate sau ca Ulus of Jochi. După moartea lui Batu Khan (fondatorul Hoardei de Aur) în 1255, dinastia sa a înflorit timp de un secol întreg, până în 1359, deși intrigile lui Nogai au instigat un război civil parțial la sfârșitul anilor 1290. Puterea militară a Hoardei a atins apogeul în timpul domniei lui Uzbeg Khan (1312–1341), care a adoptat islamul.
-Teritoriul Hoardei de Aur, la apogeul ei, se întindea din Siberia și Asia Centrală până în părți ale Europei de Est, de la Urali până la Dunăre în vest și de la Marea Neagră până la Marea Caspică la sud, învecinandu-se cu Munții Caucaz și teritoriile dinastiei mongole cunoscute sub numele de 
-<span class="tooltip" data-info="Hanat mongol din Persia, fondat de Hülegü.">Ilkhanat</span>.
- Hanatul a experimentat dezordine politică internă violentă începând cu 1359, înainte de a se reuni pentru scurt timp (1381–1395) sub Tokhtamysh. Cu toate acestea, la scurt timp după invazia din 1396 a lui Timur , fondatorul Imperiului Timurid, Hoarda de Aur s-a spart în hanate tătare mai mici, care au scăzut constant în putere. La începutul secolului al XV-lea, Hoarda a început să se destrame. Până în 1466, era denumită pur și simplu „Marea Hoardă”. În teritoriile sale au apărut numeroase hanate predominant vorbitoare de turcă.
-                </p>
-            </div>            
+      <div class="container">
+        <!-- Date generale -->
+        <h2>1242-1502</h2>
+        <!-- Titlul principal -->
+        <h1>HOARDA DE AUR</h1>
+        <hr class="separator">
+        <!-- Imaginea principală -->
+        <img src="https://i.pinimg.com/1200x/d3/9a/b3/d39ab39b644184525387f82753585ec0.jpg" alt="Hoarda de Aur">
+        <!-- Textul introductiv -->
+        <div class="text-section">
+          <p>
+            Hoarda de Aur a fost inițial un hanat mongol și ulterior turcizat, înființat în secolul al XIII-lea și originar ca sectorul de nord-vest al Imperiului Mongol. Odată cu fragmentarea Imperiului Mongol după 1259, acesta a devenit un hanat separat funcțional. Este cunoscut și sub numele de Kipchak Khanate sau ca Ulus of Jochi. După moartea lui Batu Khan (fondatorul Hoardei de Aur) în 1255, dinastia sa a înflorit timp de un secol întreg, până în 1359, deși intrigile lui Nogai au instigat un război civil parțial la sfârșitul anilor 1290. Puterea militară a Hoardei a atins apogeul în timpul domniei lui Uzbeg Khan (1312–1341), care a adoptat islamul.
+            Teritoriul Hoardei de Aur, la apogeul ei, se întindea din Siberia și Asia Centrală până în părți ale Europei de Est, de la Urali până la Dunăre în vest și de la Marea Neagră până la Marea Caspică la sud, învecinandu-se cu Munții Caucaz și teritoriile dinastiei mongole cunoscute sub numele de 
+            <span class="tooltip" data-info="Hanat mongol din Persia, fondat de Hülegü.">Ilkhanat</span>.
+            Hanatul a experimentat dezordine politică internă violentă începând cu 1359, înainte de a se reuni pentru scurt timp (1381–1395) sub Tokhtamysh. Cu toate acestea, la scurt timp după invazia din 1396 a lui Timur, fondatorul Imperiului Timurid, Hoarda de Aur s-a spart în hanate tătare mai mici, care au scăzut constant în putere. La începutul secolului al XV-lea, Hoarda a început să se destrame. Până în 1466, era denumită pur și simplu „Marea Hoardă”.
+          </p>
+          <!-- Secțiuni modulare - exemplu: Prolog -->
+    <section id="prolog">
+        <div class="section-header">
+          <!-- Titlul secțiunii, la fel de mare ca titlul principal -->
+          <h1>Prolog</h1>
+          <!-- Separator gros -->
+          <hr class="separator thick">
+          <!-- Blocul cu date și locație -->
+          <p class="info">18 August 1206, Mongolia</p>
+          <!-- Separator sub blocul de info -->
+          <hr class="separator">
         </div>
-    </div>    
-    <div class="sidebar" id="sidebar">
-        <ul>
-            <li><a href="#home">Acasă</a></li>
-            <li><a href="#services">Servicii</a></li>
-            <li><a href="#about">Despre</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button id="modeToggle">Schimbă modul</button>
+        <!-- Textul secțiunii -->
+        <div class="section-content">
+          <p>
+            Aceasta este secțiunea Prolog. Aici poți adăuga textul detaliat despre contextul inițial.
+          </p>
+        </div>
+      </section>
+        </div>
+      </div>
     </div>
-    <div id="imagePopup" class="popup">
-        <span id="closePopup" class="close-btn">&times;</span>
-        <img id="popupImage" src="" alt="Zoom Image">
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="scripts.js"></script>
+    
+
+    
+    <!-- Alte secțiuni noi pot fi adăugate similar:
+         <section id="nume-secțiune">
+           <div class="section-header">
+             <h1>Nume Secțiune</h1>
+             <hr class="separator thick">
+             <p class="info">Data, Locație</p>
+             <hr class="separator">
+           </div>
+           <div class="section-content">
+             <p>Textul secțiunii...</p>
+           </div>
+         </section>
+    -->
+  </div>
+  
+  <!-- Popup pentru imagine -->
+  <div id="imagePopup" class="popup">
+    <span id="closePopup" class="close-btn">&times;</span>
+    <img id="popupImage" src="" alt="Zoom Image">
+  </div>
+  
+  <!-- Scripturile -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
