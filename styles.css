@@ -1,0 +1,132 @@
+body {
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.text-section {
+    text-align: justify;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px 0;
+}
+
+.text-section p::first-letter {
+    color: #ed143d;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.9; /* Reduce înălțimea liniei doar pentru prima literă */
+    margin-right: 5px;
+}
+
+
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .container {
+    background-color: #444;
+}
+
+body.dark-mode .text-section {
+    color: #ddd;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.5s, padding-top 0.5s;
+    padding-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li a, #modeToggle {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+    color: white;
+    background: #333;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.sidebar li a:hover, #modeToggle:hover {
+    background: #555;
+}
+
+body.dark-mode a {
+    color: gray;
+}
+
+body.dark-mode .sidebar {
+    background-color: #222;
+}
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+    color: #ed143d; /* Culoarea de accent */
+    font-weight: bold;
+}
+
+.tooltip::after {
+    content: attr(data-info);
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
+    visibility: hidden;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
