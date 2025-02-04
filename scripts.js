@@ -3,8 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const modeToggle = document.getElementById('modeToggle');
     const menuToggle = document.createElement('button');
     const img = document.querySelector('img');
+    const popup = document.getElementById('imagePopup');
+    const popupImage = document.getElementById('popupImage');
+    const closePopup = document.getElementById('closePopup');
     let isSidebarOpen = false;
-    let isZoomed = false;
+
+    // Definește procentul de mărire a imaginii
+    let zoomPercentage = '200%'; // Poți modifica acest procentaj după preferințe
 
     // Creare buton pentru deschiderea meniului
     menuToggle.innerHTML = 'Meniu';
@@ -30,29 +35,28 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Evită închiderea meniului la clic în interiorul lui
-    sidebar.addEventListener('click', function(event) {
-        event.stopPropagation();
+    // Pop-up pentru imagine
+    img.addEventListener('click', function() {
+        popupImage.src = this.src;
+        popupImage.style.maxWidth = zoomPercentage; // Setează lățimea maximă la valoarea definită
+        popupImage.style.maxHeight = '100vh'; // Setează înălțimea maximă la 100% din înălțimea vizuală a ferestrei
+        popup.style.display = 'flex';
     });
 
-    // Animare imagine cu zoom
-    img.addEventListener('click', function(event) {
-        event.stopPropagation();
-        if (!isZoomed) {
-            img.style.transform = 'scale(1.5)';
-            img.style.transition = 'transform 0.5s ease-in-out';
-            isZoomed = true;
-        } else {
-            img.style.transform = 'scale(1)';
-            isZoomed = false;
+    closePopup.addEventListener('click', function() {
+        popup.style.display = 'none';
+    });
+
+    // Închide popup-ul când se face click în afara imaginii sau se apasă Escape
+    popup.addEventListener('click', function(event) {
+        if (event.target === popup) {
+            popup.style.display = 'none';
         }
     });
 
-    // Resetează imaginea la dimensiunea inițială când se apasă în afara ei
-    document.addEventListener('click', function() {
-        if (isZoomed) {
-            img.style.transform = 'scale(1)';
-            isZoomed = false;
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            popup.style.display = 'none';
         }
     });
 
