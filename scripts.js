@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const sidebar = document.getElementById('sidebar');
   const modeToggle = document.getElementById('modeToggle');
   const toggleMapBtn = document.getElementById('toggleMap');
-  // Folosește butonul definit în HTML
   const menuToggle = document.getElementById('menuToggle');
   const img = document.querySelector('img');
   const popup = document.getElementById('imagePopup');
@@ -15,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let isSidebarOpen = false;
 
-  // Eveniment pentru butonul de Meniu
+  // Eveniment pentru butonul "Meniu"
   menuToggle.addEventListener('click', function(event) {
     console.log("Butonul de Meniu a fost apăsat");
     event.stopPropagation();
@@ -26,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Dropdown-ul din sidebar – atașează event listener-ul
+  // Dropdown-ul din sidebar
   const dropbtn = document.querySelector('.dropbtn');
   const dropdownContent = document.querySelector('.dropdown-content');
   if (dropbtn && dropdownContent) {
@@ -119,12 +118,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Inițializare hartă cu Leaflet
   var map = L.map('map').setView([45.9432, 24.9668], 4);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
+    attribution: '&copy; OpenStreetMap contributors' 
+  }).addTo(map);
 
-  // Obiectul cu locații (definim secțiunile care vor schimba poziția hărții)
+  // Definirea locațiilor pentru secțiuni
   var locations = {
-    prolog: { coords: [46, 105], msg: "Prolog – 18 August 1206, Mongolia" }
-    // Adaugă aici și alte secțiuni, ex: "capitol1": { coords: [47, 106], msg: "Capitolul 1 – ..." }
+    prolog: { coords: [46, 105], msg: "Prolog – 18 August 1206, Mongolia" },
+    khwarazmian: { coords: [45, 90], msg: "Khwarazmian – 1 Ianuarie 1219, Asia centrală" },
+    "alta-sectie": { coords: [47, 100], msg: "Altă Secțiune" }
   };
 
   var mapMarkers = {};
@@ -136,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Funcția pentru actualizarea linkurilor active din cuprins
+  // Actualizează linkurile active din cuprins
   function updateActiveLink(activeId) {
     document.querySelectorAll('.dropdown-content a[data-loc]').forEach(function(link) {
       if (link.dataset.loc === activeId) {
@@ -146,7 +148,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
-  
 
   // Eveniment pentru linkurile din dropdown-ul "Cuprins"
   var cuprinsLinks = document.querySelectorAll('.dropdown-content a[data-loc]');
@@ -169,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Observator pentru secțiuni (folosim IntersectionObserver)
+  // Observator pentru secțiuni (folosind IntersectionObserver)
   const observerOptions = { root: null, threshold: 0.5 };
   const observerCallback = (entries, observer) => {
     entries.forEach(entry => {
@@ -204,4 +205,35 @@ document.addEventListener('DOMContentLoaded', function() {
       mapContainer.style.display = "none";
     }
   });
+
+  // --- Încarcă și actualizează textul secțiunilor din text.txt ---
+  fetch('text.txt')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Eroare la încărcarea fișierului: ${response.status}`);
+      }
+      return response.text();
+    })
+    .then(text => {
+      // Parsează fișierul folosind o expresie regulată.
+      // Se caută blocuri de forma: --id-secțiune-- urmat de textul secțiunii
+      const regex = /--([\w-]+)--\s*([\s\S]*?)(?=--[\w-]+--|$)/g;
+      let match;
+      while ((match = regex.exec(text)) !== null) {
+        const sectionId = match[1].trim();    // ex.: "prolog", "khwarazmian", "alta-sectie"
+        const content = match[2].trim();        // textul secțiunii
+        const sectionElement = document.getElementById(sectionId);
+        if (sectionElement) {
+          // Caută un paragraf în interiorul .section-content
+          let contentElement = sectionElement.querySelector('.section-content p');
+          if (!contentElement) {
+            contentElement = sectionElement;
+          }
+          contentElement.innerText = content;
+        } else {
+          console.warn(`Secțiunea cu id-ul "${sectionId}" nu a fost găsită în HTML.`);
+        }
+      }
+    })
+    .catch(error => console.error("Eroare la încărcarea sau procesarea fișierului text.txt:", error));
 });
