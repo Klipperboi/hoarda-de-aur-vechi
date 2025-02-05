@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Elimină clasa dark-mode la pornire
-  document.body.classList.remove('dark-mode');
-
   // Referințe DOM
   const particlesJSBackground = document.getElementById('particles-js');
   const sidebar = document.getElementById('sidebar');
@@ -29,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sidebar.style.paddingTop = isSidebarOpen ? '20px' : '0';
       }
     });
-  
+
     const dropbtn = document.querySelector('.dropbtn');
     const dropdownContent = document.querySelector('.dropdown-content');
     if (dropbtn && dropdownContent) {
@@ -70,43 +67,43 @@ document.addEventListener('DOMContentLoaded', function() {
     particlesJS('particles-js', config);
   }
 
- function initImagePopups() {
-  // Selectează toate imaginile cu clasa "popup-enabled"
-  const images = document.querySelectorAll('img.popup-enabled');
-  images.forEach(img => {
-    img.addEventListener('click', function() {
-      popupImage.src = this.src;
-      // Nu mai setăm inline max-width și max-height; CSS-ul se va ocupa de asta
-      popup.style.display = 'flex';
-      document.body.style.overflow = 'hidden';
+  // Funcție pentru inițializarea popup-urilor pentru imagini
+  function initImagePopups() {
+    // Selectează toate imaginile cu clasa "popup-enabled"
+    const images = document.querySelectorAll('img.popup-enabled');
+    images.forEach(img => {
+      img.addEventListener('click', function() {
+        popupImage.src = this.src;
+        // Afișează popup-ul (stilul "flex" este definit în CSS pentru centrare)
+        popup.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+      });
     });
-  });
 
-  // Evenimente pentru închiderea popup-ului
-  if (closePopup) {
-    closePopup.addEventListener('click', function() {
-      popup.style.display = 'none';
-      document.body.style.overflow = 'auto';
-    });
-  }
-
-  document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-      popup.style.display = 'none';
-      document.body.style.overflow = 'auto';
+    // Evenimente pentru închiderea popup-ului
+    if (closePopup) {
+      closePopup.addEventListener('click', function() {
+        popup.style.display = 'none';
+        document.body.style.overflow = 'auto';
+      });
     }
-  });
 
-  if (popup) {
-    popup.addEventListener('click', function(event) {
-      if (event.target === popup) {
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
         popup.style.display = 'none';
         document.body.style.overflow = 'auto';
       }
     });
-  }
-}
 
+    if (popup) {
+      popup.addEventListener('click', function(event) {
+        if (event.target === popup) {
+          popup.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+      });
+    }
+  }
 
   // Funcție pentru inițializarea hărții cu Leaflet
   function initMap() {
@@ -114,14 +111,14 @@ document.addEventListener('DOMContentLoaded', function() {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
       attribution: '&copy; OpenStreetMap contributors' 
     }).addTo(map);
-  
+
     // Definirea locațiilor pentru secțiuni
     var locations = {
       prolog: { coords: [46, 105], msg: "Prolog – 18 August 1206, Mongolia" },
       khwarazmian: { coords: [45, 90], msg: "Khwarazmian – 1 Ianuarie 1219, Asia centrală" },
       "alta-sectie": { coords: [47, 100], msg: "Altă Secțiune" }
     };
-  
+
     var mapMarkers = {};
     for (var key in locations) {
       if (locations.hasOwnProperty(key)) {
@@ -130,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mapMarkers[key] = marker;
       }
     }
-  
+
     // Actualizează linkurile active din cuprins
     function updateActiveLink(activeId) {
       document.querySelectorAll('.dropdown-content a[data-loc]').forEach(function(link) {
@@ -141,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     }
-  
+
     // Eveniment pentru linkurile din dropdown-ul "Cuprins"
     var cuprinsLinks = document.querySelectorAll('.dropdown-content a[data-loc]');
     cuprinsLinks.forEach(function(link) {
@@ -149,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         var locKey = this.dataset.loc;
         updateActiveLink(locKey);
-  
+
         if (locKey === "acasa") {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         } else if (locations[locKey]) {
@@ -162,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
-  
+
     // Observator pentru secțiuni (folosind IntersectionObserver)
     const observerOptions = { root: null, threshold: 0.5 };
     const observerCallback = (entries, observer) => {
@@ -179,13 +176,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     };
-  
+
     const observedSections = document.querySelectorAll('section[id]');
     observedSections.forEach(section => {
       const observer = new IntersectionObserver(observerCallback, observerOptions);
       observer.observe(section);
     });
-  
+
     // Toggle pentru afișarea/ascunderea hărții
     toggleMapBtn.addEventListener('click', function() {
       var mapContainer = document.getElementById('map');
@@ -218,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const sectionId = match[1].trim();
           const content = match[2].trim();
           console.log(`Secțiune găsită: ${sectionId} cu conținut: ${content}`);
-  
+
           const sectionElement = document.getElementById(sectionId);
           if (sectionElement) {
             let contentElement = sectionElement.querySelector('.section-content p');
@@ -241,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initSidebar();
   loadParticles('light');
   particlesJSBackground.style.backgroundColor = '#f4f4f4';
-  initImagePopups(); // Aplica popup la toate imaginile cu clasa "popup-enabled"
+  initImagePopups(); // Activează popup pentru imaginile cu clasa "popup-enabled"
   initMap();
   initTextSections();
 
