@@ -70,44 +70,43 @@ document.addEventListener('DOMContentLoaded', function() {
     particlesJS('particles-js', config);
   }
 
-  // Funcție pentru a seta evenimentele popup pentru toate imaginile marcate
-  function initImagePopups() {
-    // Selectează toate imaginile care au clasa "popup-enabled"
-    const images = document.querySelectorAll('img.popup-enabled');
-    images.forEach(img => {
-      img.addEventListener('click', function() {
-        popupImage.src = this.src;
-        popupImage.style.maxWidth = '200%';
-        popupImage.style.maxHeight = '100vh';
-        popup.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-      });
+ function initImagePopups() {
+  // Selectează toate imaginile cu clasa "popup-enabled"
+  const images = document.querySelectorAll('img.popup-enabled');
+  images.forEach(img => {
+    img.addEventListener('click', function() {
+      popupImage.src = this.src;
+      // Nu mai setăm inline max-width și max-height; CSS-ul se va ocupa de asta
+      popup.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
     });
-  
-    // Evenimente pentru închiderea popup-ului
-    if (closePopup) {
-      closePopup.addEventListener('click', function() {
-        popup.style.display = 'none';
-        document.body.style.overflow = 'auto';
-      });
+  });
+
+  // Evenimente pentru închiderea popup-ului
+  if (closePopup) {
+    closePopup.addEventListener('click', function() {
+      popup.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    });
+  }
+
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      popup.style.display = 'none';
+      document.body.style.overflow = 'auto';
     }
-  
-    document.addEventListener('keydown', function(event) {
-      if (event.key === 'Escape') {
+  });
+
+  if (popup) {
+    popup.addEventListener('click', function(event) {
+      if (event.target === popup) {
         popup.style.display = 'none';
         document.body.style.overflow = 'auto';
       }
     });
-  
-    if (popup) {
-      popup.addEventListener('click', function(event) {
-        if (event.target === popup) {
-          popup.style.display = 'none';
-          document.body.style.overflow = 'auto';
-        }
-      });
-    }
   }
+}
+
 
   // Funcție pentru inițializarea hărții cu Leaflet
   function initMap() {
