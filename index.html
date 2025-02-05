@@ -4,38 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hoarda de Aur</title>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/png">
+  <!-- Fișierul CSS propriu -->
   <link rel="stylesheet" href="styles.css">
+  <!-- CSS Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body id="home">
   <!-- Efectul de particule în fundal -->
   <div id="particles-js"></div>
   
-  <!-- Sidebar cu butoanele "Schimbă modul" și "Cuprins" -->
+  <!-- Butonul "Meniu" definit în HTML -->
+  <button id="menuToggle" style="position: fixed; bottom: 20px; right: 20px; width: 80px; height: 40px;">Meniu</button>
+  
+  <!-- Sidebar -->
   <div class="sidebar" id="sidebar">
     <button id="modeToggle">Schimbă modul</button>
+    <button id="toggleMap">Harta</button>
     <div class="dropdown">
       <button class="dropbtn">Cuprins</button>
       <div class="dropdown-content">
-        <a href="#home">Acasă</a>
-        <a href="#prolog">Prolog</a>
-        <!-- Poți adăuga mai multe linkuri către secțiuni noi -->
+        <a href="#home" data-loc="acasa">Acasă</a>
+        <a href="#prolog" data-loc="prolog">1206 - Prolog</a>
       </div>
     </div>
   </div>
   
-  <!-- Containerul principal (toate conținutul este modularizat aici) -->
+  <!-- Secțiune "Acasă" pentru a face scroll-ul către top (opțional) -->
+  <section id="acasa"></section>
+  
+  <!-- Containerul principal cu conținutul paginii -->
   <div class="main-container">
-    <!-- Secțiunea de deschidere: date generale, titlu, imagine, text introductiv -->
     <div class="highlight-box">
       <div class="container">
-        <!-- Date generale -->
         <h2>1242-1502</h2>
-        <!-- Titlul principal -->
         <h1>HOARDA DE AUR</h1>
         <hr class="separator">
-        <!-- Imaginea principală -->
         <img src="https://i.pinimg.com/1200x/d3/9a/b3/d39ab39b644184525387f82753585ec0.jpg" alt="Hoarda de Aur">
-        <!-- Textul introductiv -->
         <div class="text-section">
           <p>
             Hoarda de Aur a fost inițial un hanat mongol și ulterior turcizat, înființat în secolul al XIII-lea și originar ca sectorul de nord-vest al Imperiului Mongol. Odată cu fragmentarea Imperiului Mongol după 1259, acesta a devenit un hanat separat funcțional. Este cunoscut și sub numele de Kipchak Khanate sau ca Ulus of Jochi. După moartea lui Batu Khan (fondatorul Hoardei de Aur) în 1255, dinastia sa a înflorit timp de un secol întreg, până în 1359, deși intrigile lui Nogai au instigat un război civil parțial la sfârșitul anilor 1290. Puterea militară a Hoardei a atins apogeul în timpul domniei lui Uzbeg Khan (1312–1341), care a adoptat islamul.
@@ -43,48 +49,32 @@
             <span class="tooltip" data-info="Hanat mongol din Persia, fondat de Hülegü.">Ilkhanat</span>.
             Hanatul a experimentat dezordine politică internă violentă începând cu 1359, înainte de a se reuni pentru scurt timp (1381–1395) sub Tokhtamysh. Cu toate acestea, la scurt timp după invazia din 1396 a lui Timur, fondatorul Imperiului Timurid, Hoarda de Aur s-a spart în hanate tătare mai mici, care au scăzut constant în putere. La începutul secolului al XV-lea, Hoarda a început să se destrame. Până în 1466, era denumită pur și simplu „Marea Hoardă”.
           </p>
-          <!-- Secțiuni modulare - exemplu: Prolog -->
-    <section id="prolog">
-        <div class="section-header">
-          <!-- Titlul secțiunii, la fel de mare ca titlul principal -->
-          <h1>Prolog</h1>
-          <!-- Separator gros -->
-          <hr class="separator thick">
-          <!-- Blocul cu date și locație -->
-          <p class="info">18 August 1206, Mongolia</p>
-          <!-- Separator sub blocul de info -->
-          <hr class="separator">
-        </div>
-        <!-- Textul secțiunii -->
-        <div class="section-content">
-          <p>
-            La moartea sa în 1227, Genghis Khan a împărțit Imperiul Mongol între cei patru fii ai săi ca apanagi, dar Imperiul a rămas unit sub hanul suprem. Jochi era cel mai mare, dar a murit cu șase luni înaintea lui Genghis. 
-            Cele mai vestice ținuturi ocupate de mongoli, care includeau ceea ce este astăzi sudul Rusiei și Kazahstanul , au fost date fiilor mai mari ai lui Jochi, Batu Khan, care a devenit în cele din urmă conducător al 
-            Hoardei Albastre, și Orda Khan, care a devenit liderul Hoardei Albe. Se spune că numele Hoardă de Aur a fost inspirat de culoarea aurie a corturilor în care trăiau mongolii în timpul
-            războiului sau de un cort de aur folosit de Batu Khan sau de Uzbek Khan, sau că a fost dăruit de afluenții slavi pentru a descrie marea bogăție a khanului.
-          </p>
-        </div>
-      </section>
+          <!-- Secțiunea Prolog -->
+          <section id="prolog">
+            <div class="section-header">
+              <h1>Prolog</h1>
+              <hr class="separator thick">
+              <p class="info">18 August 1206, Mongolia</p>
+              <hr class="separator">
+            </div>
+            <div class="section-content">
+              <p>
+                La moartea sa în 1227, Genghis Khan a împărțit Imperiul Mongol între cei patru fii ai săi ca apanagi, dar Imperiul a rămas unit sub hanul suprem.
+                Jochi era cel mai mare, dar a murit cu șase luni înaintea lui Genghis. Cele mai vestice ținuturi ocupate de mongoli, care includeau ceea ce este
+                astăzi sudul Rusiei și Kazahstanul, au fost date fiilor mai mari ai lui Jochi, Batu Khan, care a devenit în cele din urmă conducător al Hoardei 
+                Albastre, și Orda Khan, care a devenit liderul Hoardei Albe. Se spune că numele Hoardă de Aur a fost inspirat de culoarea aurie a corturilor
+                în care trăiau mongolii în timpul războiului sau de un cort de aur folosit de Batu Khan sau de Uzbek Khan, sau că a fost dăruit de afluenții
+                slavi pentru a descrie marea bogăție a khanului.
+              </p>
+            </div>
+          </section>
         </div>
       </div>
     </div>
-    
-
-    
-    <!-- Alte secțiuni noi pot fi adăugate similar:
-         <section id="nume-secțiune">
-           <div class="section-header">
-             <h1>Nume Secțiune</h1>
-             <hr class="separator thick">
-             <p class="info">Data, Locație</p>
-             <hr class="separator">
-           </div>
-           <div class="section-content">
-             <p>Textul secțiunii...</p>
-           </div>
-         </section>
-    -->
   </div>
+  
+  <!-- Containerul hărții: poziționat fix în partea dreaptă -->
+  <div id="map"></div>
   
   <!-- Popup pentru imagine -->
   <div id="imagePopup" class="popup">
@@ -93,7 +83,11 @@
   </div>
   
   <!-- Scripturile -->
+  <!-- particles.js -->
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <!-- JS Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Scriptul propriu -->
   <script src="scripts.js"></script>
 </body>
 </html>
