@@ -1,6 +1,54 @@
+<span class="tooltip" data-info="explicatie">cuvant</span>
+
+
+--principal--
+Hoarda de Aur a fost inițial un hanat mongol și ulterior turcizat, înființat în secolul al XIII-lea și originar ca sectorul de nord-vest al Imperiului Mongol.
+Odată cu fragmentarea Imperiului Mongol după 1259, acesta a devenit un hanat separat funcțional. Este cunoscut și sub numele de Kipchak Khanate sau ca Ulus of Jochi. 
+După moartea lui Batu Khan (fondatorul Hoardei de Aur) în 1255, dinastia sa a înflorit timp de un secol întreg, până în 1359, deși intrigile lui Nogai au instigat
+un război civil parțial la sfârșitul anilor 1290. Puterea militară a Hoardei a atins apogeul în timpul domniei lui Uzbeg Khan (1312–1341), care a adoptat islamul.
+Teritoriul Hoardei de Aur, la apogeul ei, se întindea din Siberia și Asia Centrală până în părți ale Europei de Est, de la Urali până la Dunăre în vest și de la
+Marea Neagră până la Marea Caspică la sud, învecinandu-se cu Munții Caucaz și teritoriile dinastiei mongole cunoscute sub numele de 
+<span class="tooltip" data-info="Hanat mongol din Persia, fondat de Hülegü.">Ilkhanat</span>.
+Hanatul a experimentat dezordine politică internă violentă începând cu 1359, înainte de a se reuni pentru scurt timp (1381–1395) sub Tokhtamysh. 
+Cu toate acestea, la scurt timp după invazia din 1396 a lui 
+<span class="tooltip" data-info="Conducător mongol și fondatorul Imperiului Timurid">Timur</span>, fondatorul Imperiului Timurid, Hoarda de Aur 
+s-a spart în hanate tătare mai mici, 
+care au scăzut constant în putere. La începutul secolului al XV-lea, Hoarda a început să se destrame. Până în 1466, era denumită pur și simplu „Marea Hoardă”. 
+În teritoriile sale au apărut numeroase hanate predominant vorbitoare de turcă.
+
 --prolog--
-Acesta este textul actualizat pentru secțiunea Prolog. Aici se poate descrie evenimentul, contextul sau orice detalii relevante.
+La moartea sa în 1227, Genghis Khan a împărțit Imperiul Mongol între cei patru fii ai săi ca apanagi, dar Imperiul a rămas unit sub hanul suprem. Jochi era cel mai mare, dar a murit cu șase luni înaintea lui Genghis. Cele mai vestice ținuturi ocupate de mongoli, care includeau ceea ce este astăzi sudul Rusiei și Kazahstanul , au fost date fiilor mai mari ai lui Jochi, Batu Khan, care a devenit în cele din urmă conducător al Hoardei Albastre, și Orda Khan, care a devenit liderul Hoardei Albe.
+Se spune că numele Hoardă de Aur a fost inspirat de culoarea aurie a corturilor în care trăiau mongolii în timpul războiului sau de un cort de aur folosit de Batu Khan sau de Uzbek Khan, sau că a fost dăruit de afluenții slavi pentru a descrie marea bogăție a khanului.
+
 --khwarazmian--
-Acesta este textul actualizat pentru secțiunea Khwarazmian.
---alta-sectie--
-Acesta este textul actualizat pentru altă secțiune.
+Cucerirea mongolă a Khwarezmia a avut loc între 1219 și 1221, când trupele Imperiului Mongol sub Genghis Khan au invadat pământurile Imperiului Khwarazmian din Asia Centrală. Campania, care a urmat anexării hanatului Qara Khitai, a cunoscut o devastare pe scară largă, inclusiv numeroase crime de război și a marcat finalizarea cuceririi mongole a Asiei Centrale.
+Ambii beligeranți, deși mari, se formaseră recent: dinastia Khwarazmian se extinsese din patria lor pentru a înlocui Imperiul Selgiuk la sfârșitul anilor 1100 și începutul anilor 1200; aproape simultan, Genghis Khan a unificat popoarele mongole și a cucerit dinastia Xia de Vest. Deși relațiile au fost inițial cordiale, Genghis a fost supărat de o serie de provocări diplomatice. Când un înalt diplomat mongol a fost executat de Khwarazmshah Muhammed al II-lea, hanul și-a mobilizat forțele, estimate a fi între 90.000 și 200.000 de oameni, și a invadat. Forțele șahului erau larg dispersate și probabil depășite numeric - realizând dezavantajul său, el a decis să-și garnizozeze orașele în mod individual pentru a-i împotmoli pe mongoli. Cu toate acestea, printr-o organizare și o planificare excelentă, ei au reușit să izoleze și să cucerească orașele Transoxiane Bukhara, Samarkand și Gurganj.
+Genghis și fiul său cel mic Tolui au pustiit apoi Khorasanul, distrugând Herat, Nișapur și Merv, trei dintre cele mai mari orașe din lume. Între timp, Muhammed al II-lea a fost forțat să fugă de generalii mongoli Subutai și Jebe; neputând să ajungă la niciun bastioane de sprijin, a murit sărac pe o insulă din Marea Caspică. Fiul și moștenitorul său Jalal-al Din a reușit să mobilizeze forțe substanțiale, învingând un general mongol în bătălia de la Parwan; a fost totuși zdrobit de Genghis însuși în bătălia de la Indus câteva luni mai târziu.
+
+--volga--
+Invazia mongolă din Volga Bulgaria a durat din 1223 până în 1236. Statul bulgar, centrat în Volga de jos și Kama, a fost centrul comerțului cu blănuri în Eurasia de-a lungul celei mai mari a istoriei sale. Înainte de cucerirea mongolă, rușii din Novgorod și Vladimir au jefuit și au atacat în mod repetat zona, slăbind astfel economia și puterea militară a statului bulgar. Mai multe ciocniri au avut loc între 1229–1234, iar Imperiul Mongol i-a cucerit pe bulgari în 1236.
+
+--kalka--
+În urma invaziei mongole din Asia Centrală și a prăbușirii ulterioare a Imperiului Khwarezmian, o forță mongolă sub comanda generalilor Jebe și Subutai a avansat în Irak-i Ajam. Jebe a cerut permisiunea împăratului mongol , Genghis Khan , de a-și continua cuceririle timp de câțiva ani înainte de a se întoarce în armata principală prin Caucaz.
+Bătălia de pe râul Kalka a fost purtată între Imperiul Mongol, ale cărui armate erau conduse de Jebe și Subutai cel viteaz, și o coaliție a mai multor principate ale Rusiei , inclusiv Kiev și Halych, și Cumani . Ei erau sub comanda comună a lui Mstislav cel Îndrăzneț și Mstislav al III-lea al Kievului. Bătălia a fost purtată la 31 mai 1223 pe malul râului Kalka în actuala regiune Donețk, Ucraina , și s-a încheiat cu o victorie decisivă a mongolului.
+
+--rusia kiev--
+Imperiul Mongol a invadat și cucerit Rusia Kieveană în secolul al XIII-lea, distrugând numeroase orașe, inclusiv Ryazan, Kolomna, Moscova, Vladimir și Kiev, singurele orașe mari care au scăpat de distrugere fiind Novgorod și Pskov.
+Campania a fost anunțată de bătălia râului Kalka din mai 1223, care a avut ca rezultat o victorie mongolă asupra forțelor mai multor principate ale Rusiei. Mongolii s-au retras, după ce și-au adunat informațiile care era scopul recunoașterii în forță.
+A urmat o invazie pe scară largă a Rus' de către Batu Khan, din 1237 până în 1242. Invazia a fost încheiată prin procesul de succesiune mongolă la moartea lui Ögedei Khan. Toate principatele Rusiei au fost nevoite să se supună stăpânirii mongole și au devenit vasali ai Hoardei de Aur, dintre care unele au durat până în 1480. Invazia, facilitată de începutul destrămarii Rusiei Kievene în secolul al XIII-lea, a avut ramificații profunde pentru istoria Europei de Est, inclusiv împărțirea poporului slav de est în trei națiuni separate: Rusia actuală, Ucraina și Belarus și ascensiunea Marelui Ducat al Moscovei.
+
+--ryazan--
+În toamna anului 1237, Hoarda Mongolă condusă de Batu Khan a invadat principatul Ryazan al Rusiei . Prințul de Ryazan, Iuri Igorevici, i-a cerut ajutor lui Iuri Vsevolodovici, prințul lui Vladimir, dar nu a primit niciunul. Ryazan, capitala Principatului Ryazan, a fost primul oraș rus care a fost asediat de invadatorii mongoli sub Batu Khan. Scriitorul cronicii Rus a descris consecințele bătăliei cu cuvintele „N-a mai rămas nimeni să geme și să plângă”.
+
+--sit--
+După ce mongolii și-au jefuit capitala Vladimir, Yuri a fugit peste Volga spre nord, la Yaroslavl, unde și-a adunat în grabă o armată. El și frații săi s-au întors apoi spre Vladimir în speranța că vor elibera orașul înainte ca mongolii să-l cuprindă, dar au fost prea târziu. Yuri a trimis o forță de 3.000 de oameni sub conducerea lui Dorojh să cerceteze unde erau mongolii; după care Doroj s-a întors spunând că Yuri și forța sa erau deja înconjurate. În timp ce încerca să-și adune forțele, a fost atacat de forțele mongole sub Burundai și a fugit, dar a fost depășit pe râul Sit și a murit acolo împreună cu nepotul său, prințul Vsevolod de Yaroslavl.
+Bătălia râului Sit a avut loc în partea de nord a actualului district Sonkovsky din regiunea Tver din Rusia, aproape de seloul Bozhonka, la 4 martie 1238, între hoardele mongole din Batu Khan și Rusia sub Grand. Prințul Yuri al II-lea de Vladimir-Suzdal în timpul invaziei mongole a Rusiei . Bătălia a marcat sfârșitul rezistenței unificate față de mongoli și a inaugurat două secole de dominație mongolă a Rusiei și Ucrainei moderne.
+
+--kozelsk--
+Luând orașul Torzhok la 5 martie 1238, după un asediu de două săptămâni, mongolii au continuat spre Novgorod. Cu toate acestea, nu au reușit să ajungă în oraș, în principal pentru că au avut dificultăți în deplasarea în pădure și, după ce au înaintat în jur de 100 de kilometri în locul necunoscut desemnat în cronici drept Crucea Ignach, au abandonat planurile de cucerire a Novgorodului, s-au întors spre sud și împărțit în două grupe. Unele dintre forțele conduse de Kadan și Storms au trecut peste ruta de Est prin ținutul Ryazan. Principalele forțe conduse de Batu Khan au trecut prin Dolgomost la 30 km est de Smolensk, apoi au intrat în Principatul Cernigov pe Gums de sus, au ars Vșchij, dar apoi s-au întors brusc spre nord-est, ocolind Bryansk și Karachev, la sfârșitul lunii martie 1238 au plecat. până la Kozelsk de pe râul Zhizdra.
+La acea vreme, orașul era capitala Principatului în fruntea prințului Vasily, în vârstă de doisprezece ani, nepotul lui Mstislav Svyatoslavich de Cernigov, care a fost ucis în bătălia de la Kalka în 1223. Orașul era bine fortificat: înconjurat de metereze. au construit pe ele ziduri, dar mongolii aveau echipamente puternice de asediu.
+Asediul de la Kozelsk a fost unul dintre principalele evenimente ale Marșului de Vest (Kipchak) al mongolilor (1236–1242) și al invaziei mongole a Rusiei (1237–1240) la sfârșitul campaniei mongole din nord-estul Rusiei ( 1237–1238). Mongolii au asediat în primăvara anului 1238 și în cele din urmă au cucerit și distrus orașul Kozelsk, unul dintre centrele princiare subsidiare ale Principatului Cernigov.
+
+--chernigov--
+Invazia mongolă din Rus' poate fi împărțită în două faze. În iarna anilor 1237-1238, au cucerit teritoriile din nordul Rusiei (principatele Ryazan și Vladimir-Suzdal), cu excepția Republicii Novgorod, dar în primăvara anului 1238 s-au retras înapoi în Câmpurile Sălbatice. A doua campanie, care vizează teritoriile din sudul Rusiei (principatele Cernigov și Kiev) a avut loc în 1239. Sacrul Cernigovului a făcut parte din invazia mongolă a Rusului.
+
