@@ -1,6 +1,6 @@
 --prolog--
-Textul pentru secțiunea Prolog. Aici poți scrie tot ce dorești despre prolog.
+Acesta este textul actualizat pentru secțiunea Prolog. Aici se poate descrie evenimentul, contextul sau orice detalii relevante.
 --khwarazmian--
-Textul pentru secțiunea Khwarazmian. Aici poți scrie detaliile despre Khwarazmian.
+Acesta este textul actualizat pentru secțiunea Khwarazmian.
 --alta-sectie--
-Textul pentru o altă secțiune.
+Acesta este textul actualizat pentru altă secțiune.
