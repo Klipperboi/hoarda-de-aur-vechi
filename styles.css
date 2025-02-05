@@ -24,23 +24,18 @@ html {
   z-index: 2;
 }
 
-/* Imagini */
-img {
+/* Noua clasă pentru imagini centrate în container */
+img.centered-image {
+  display: block;
+  margin: 0 auto;
   width: 70%;
   height: auto;
-  margin-bottom: 20px;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 /* Popup pentru imagine */
-.popup img {
-  max-width: 400%;
-  max-height: 150vh;
-  height: auto;
-  object-fit: contain;
-}
-
 .popup {
   display: none;
   position: fixed;
@@ -53,6 +48,13 @@ img {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.popup img {
+  max-width: 400%;
+  max-height: 150vh;
+  height: auto;
+  object-fit: contain;
 }
 
 .close-btn {
@@ -94,7 +96,7 @@ body.dark-mode .text-section {
   color: #ddd;
 }
 
-/* Sidebar */
+/* Sidebar (dacă este folosit) */
 .sidebar {
   height: 100%;
   width: 0;
@@ -141,13 +143,11 @@ body.dark-mode .text-section {
   background-color: #ed143d;
 }
 
-/* Evidențierea linkului activ în cuprins */
 .dropdown-content a.active-link {
   color: #ed143d;
   font-weight: bold;
 }
 
-/* Linkuri din dropdown */
 .dropdown-content a {
   display: block;
   background-color: #333;
@@ -164,7 +164,6 @@ body.dark-mode .text-section {
   background-color: #ed143d;
 }
 
-/* Dropdown container */
 .dropdown {
   position: relative;
   display: block;
@@ -196,14 +195,16 @@ body.dark-mode .text-section {
   z-index: 2000;
 }
 
-/* Titluri */
 h1 {
   font-size: 48px;
   text-transform: uppercase;
   font-weight: bold;
+  text-align: left; /* Adaug acest atribut */
+  margin: 10px 0 2px;
 }
 
-#prolog header h1 {
+
+header h1 {
   font-size: 48px;
   text-transform: uppercase;
   font-weight: bold;
@@ -236,7 +237,7 @@ h1 {
   margin-right: 0 !important;
 }
 
-/* Harta */
+/* Harta (dacă este folosită) */
 #map {
   position: fixed;
   top: 100px;
@@ -250,7 +251,6 @@ h1 {
   display: none;
 }
 
-/* Butonul "Meniu" definit în HTML (folosit cu clasa "always-visible") */
 .always-visible {
   position: fixed;
   bottom: 20px;
@@ -271,7 +271,6 @@ h1 {
   background-color: #ed143d;
 }
 
-/* Particule */
 #particles-js {
   position: fixed;
   width: 100%;
@@ -280,12 +279,10 @@ h1 {
   z-index: -1;
 }
 
-/* Text din secțiuni */
 .text-section p {
   font-size: 18px;
 }
 
-/* Stilizare pentru cuvintele cu popup (tooltip) */
 .tooltip {
   position: relative;
   cursor: pointer;
@@ -293,7 +290,6 @@ h1 {
   font-weight: bold;
 }
 
-/* Stil pentru popup (tooltip) */
 .tooltip::after {
   content: attr(data-info);
   position: absolute;
@@ -313,7 +309,6 @@ h1 {
   z-index: 1000;
 }
 
-/* La hover, popup-ul devine vizibil */
 .tooltip:hover::after {
   opacity: 1;
   visibility: visible;
