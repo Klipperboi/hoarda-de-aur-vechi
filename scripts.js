@@ -242,4 +242,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 })
 .catch(error => console.error("Eroare la încărcarea sau procesarea fișierului text.txt:", error));
-}
+});
