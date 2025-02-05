@@ -11,6 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let isSidebarOpen = false;
 
+
+// Definirea locațiilor pentru secțiuni
+var locations = {
+  prolog: { coords: [46, 105], msg: "Prolog – 18 August 1206, Mongolia" },
+  khwarazmian: { coords: [45, 90], msg: "Khwarazmian – 1 Ianuarie 1219, Asia centrală" },
+  kalka: { coords: [48, 37], msg: "Kalka - 31 Mai 1223, Donetsk Oblast" },
+  volga: { coords: [57, 32], msg: "Volga - 1 Ianuarie 1223, Tatarstann" }
+};
+
   /* ============================
      Funcții modulare
   ============================ */
@@ -74,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     images.forEach(img => {
       img.addEventListener('click', function() {
         popupImage.src = this.src;
-        // Afișează popup-ul (stilul "flex" este definit în CSS pentru centrare)
+        // Afișează popup-ul (CSS-ul gestionează centrare cu flex)
         popup.style.display = 'flex';
         document.body.style.overflow = 'hidden';
       });
@@ -111,13 +120,6 @@ document.addEventListener('DOMContentLoaded', function() {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
       attribution: '&copy; OpenStreetMap contributors' 
     }).addTo(map);
-
-    // Definirea locațiilor pentru secțiuni
-    var locations = {
-      prolog: { coords: [46, 105], msg: "Prolog – 18 August 1206, Mongolia" },
-      khwarazmian: { coords: [45, 90], msg: "Khwarazmian – 1 Ianuarie 1219, Asia centrală" },
-      "alta-sectie": { coords: [47, 100], msg: "Altă Secțiune" }
-    };
 
     var mapMarkers = {};
     for (var key in locations) {
@@ -222,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!contentElement) {
               contentElement = sectionElement;
             }
-            contentElement.innerText = content;
+contentElement.innerHTML = content;
             console.log(`Textul pentru secțiunea "${sectionId}" a fost actualizat.`);
           } else {
             console.warn(`Secțiunea cu id-ul "${sectionId}" nu a fost găsită în HTML.`);
