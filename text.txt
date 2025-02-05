@@ -1,0 +1,6 @@
+--prolog--
+Textul pentru secțiunea Prolog. Aici poți scrie tot ce dorești despre prolog.
+--khwarazmian--
+Textul pentru secțiunea Khwarazmian. Aici poți scrie detaliile despre Khwarazmian.
+--alta-sectie--
+Textul pentru o altă secțiune.
