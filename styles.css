@@ -35,9 +35,9 @@ img {
 
 /* Popup pentru imagine */
 .popup img {
-  max-width: 400%; 
-  max-height: 150vh; 
-  height: auto; 
+  max-width: 400%;
+  max-height: 150vh;
+  height: auto;
   object-fit: contain;
 }
 
@@ -143,10 +143,9 @@ body.dark-mode .text-section {
 
 /* Evidențierea linkului activ în cuprins */
 .dropdown-content a.active-link {
-  color: #ed143d;  /* Text roșu */
+  color: #ed143d;
   font-weight: bold;
 }
-
 
 /* Linkuri din dropdown */
 .dropdown-content a {
@@ -290,15 +289,15 @@ h1 {
 .tooltip {
   position: relative;
   cursor: pointer;
-  color: #ed143d;           /* Text roșu */
-  font-weight: bold;        /* Bold */
+  color: #ed143d;
+  font-weight: bold;
 }
 
 /* Stil pentru popup (tooltip) */
 .tooltip::after {
   content: attr(data-info);
   position: absolute;
-  top: -40px;               /* Poziționează popup-ul deasupra textului */
+  top: -40px;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);
