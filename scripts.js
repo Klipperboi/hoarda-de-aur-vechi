@@ -218,28 +218,24 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log("Conținutul fișierului text.txt:", text);
       // Parsează fișierul folosind expresia regulată
       const regex = /--([\w-]+)--\s*([\s\S]*?)(?=--[\w-]+--|$)/g;
-       let match;
-  while ((match = regex.exec(text)) !== null) {
-    const sectionId = match[1].trim();
-    const content = match[2].trim();
-    console.log(`Secțiune găsită: ${sectionId} cu conținut:`, content);
-    
-    // Caută elementul HTML cu id-ul corespunzător secțiunii
-    const sectionElement = document.getElementById(sectionId);
-    if (sectionElement) {
-      // Caută paragraful în interiorul containerului cu clasa "section-content"
-      let contentElement = sectionElement.querySelector('.section-content p');
-      if (!contentElement) {
-        // Dacă nu există, folosește întregul element
-        contentElement = sectionElement;
+      let match;
+      while ((match = regex.exec(text)) !== null) {
+        const sectionId = match[1].trim();
+        const content = match[2].trim();
+        console.log(`Secțiune găsită: ${sectionId} cu conținut: ${content}`);
+        
+        const sectionElement = document.getElementById(sectionId);
+        if (sectionElement) {
+          let contentElement = sectionElement.querySelector('.section-content p');
+          if (!contentElement) {
+            contentElement = sectionElement;
+          }
+          contentElement.innerText = content;
+          console.log(`Textul pentru secțiunea "${sectionId}" a fost actualizat.`);
+        } else {
+          console.warn(`Secțiunea cu id-ul "${sectionId}" nu a fost găsită în HTML.`);
+        }
       }
-      // Actualizează conținutul elementului cu textul extras
-      contentElement.innerText = content;
-      console.log(`Textul pentru secțiunea "${sectionId}" a fost actualizat.`);
-    } else {
-      console.warn(`Secțiunea cu id-ul "${sectionId}" nu a fost găsită în HTML.`);
-    }
-  }
-})
-.catch(error => console.error("Eroare la încărcarea sau procesarea fișierului text.txt:", error));
+    })
+    .catch(error => console.error("Eroare la încărcarea sau procesarea fișierului text.txt:", error));
 });
