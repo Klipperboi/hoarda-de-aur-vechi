@@ -8,17 +8,17 @@
   <link rel="icon" href="favicon.png" type="image/png">
   <!-- Fișierul CSS propriu -->
   <link rel="stylesheet" href="styles.css">
-  <!-- CSS Leaflet -->
+  <!-- CSS Leaflet (opțional, dacă folosești harta) -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body id="home">
-  <!-- Efectul de particule în fundal -->
+  <!-- Efectul de particule în fundal (opțional) -->
   <div id="particles-js"></div>
   
-  <!-- Butonul "Meniu" definit în HTML -->
+  <!-- Butonul "Meniu" -->
   <button id="menuToggle" style="position: fixed; bottom: 20px; right: 20px; width: 80px; height: 40px;">Meniu</button>
   
-  <!-- Sidebar -->
+  <!-- Sidebar (opțional) -->
   <div class="sidebar" id="sidebar">
     <button id="modeToggle">Schimbă modul</button>
     <button id="toggleMap">Harta</button>
@@ -27,73 +27,90 @@
       <div class="dropdown-content">
         <a href="#acasa" data-loc="acasa">Acasă</a>
         <a href="#prolog" data-loc="prolog">1206 - Prolog</a>
-        <a href="#khwarazmian" data-loc="khwarazmian">Khwarazmian</a>
-        <a href="#alta-sectie" data-loc="alta-sectie">Altă Secțiune</a>
+        <a href="#khwarazmian" data-loc="khwarazmian">1219 - Khwarazmian</a>
+        <a href="#volga" data-loc="volga">1223 - Volga</a>
+        <a href="#kalka" data-loc="kalka">1223 - Kalka</a>
+
       </div>
     </div>
   </div>
   
-  <!-- Secțiune "Acasă" (pentru scroll-ul către top) -->
+  <!-- Secțiune "Acasă" (pentru scroll către top) -->
   <section id="acasa"></section>
   
-  <!-- Containerul principal cu conținutul paginii -->
+  <!-- Containerul principal -->
   <div class="main-container">
     <div class="highlight-box">
       <div class="container">
         <h2>1242-1502</h2>
         <h1>HOARDA DE AUR</h1>
         <hr class="separator">
-        <img class="popup-enabled" src="https://i.pinimg.com/1200x/d3/9a/b3/d39ab39b644184525387f82753585ec0.jpg" alt="Hoarda de Aur">
+        <!-- Imaginea principală, cu clasa popup-enabled și noua clasă centered-image -->
+        <img class="popup-enabled centered-image" src="https://i.pinimg.com/1200x/d3/9a/b3/d39ab39b644184525387f82753585ec0.jpg" alt="Hoarda de Aur">
         <div class="text-section">
-          <!-- Textul implicit poate fi înlocuit ulterior -->
-          <p>Textul din secțiunea principală se poate actualiza din text.txt.</p>
+          <section id="home"></section>
+          <p id="principal">Textul din secțiunea principală se poate actualiza din text.txt.</p>
           
           <!-- Secțiunea Prolog -->
           <section id="prolog">
-  <div class="section-header">
-    <h1>Prolog</h1>
-    <hr class="separator thick">
-    <p class="info">18 August 1206, Mongolia</p>
-    <hr class="separator">
-  </div>
-  <div class="section-content">
-    <p>Textul pentru Prolog se va încărca din text.txt.</p>
-  </div>
-</section>
-
+            <div class="section-header">
+              <h1>Prolog</h1>
+              <hr class="separator thick">
+              <p class="info">18 August 1206, Mongolia</p>
+              <hr class="separator">
+            </div>
+            <div class="section-content">
+              <p>Textul pentru Prolog se va încărca din text.txt.</p>
+            </div>
+          </section>
           
-          <!-- Secțiunea Khwarazmian -->
+          <!-- Secțiunea Khwarazmian (fără a doua imagine) -->
           <section id="khwarazmian">
             <div class="section-header">
-              <h1>Khwarazmian</h1>
+              <h1>Cucerirea mongolă a Imperiului Khwarazmian</h1>
               <hr class="separator thick">
               <p class="info">1 Ianuarie 1219, Asia centrală</p>
               <hr class="separator">
-              <img class="popup-enabled" src="https://i.pinimg.com/1200x/a9/ca/43/a9ca43f1aa039283467ec6fc9388d4f3.jpg" alt="Hoarda de Aur">
+              <img class="centered-image popup-enabled" src="https://i.pinimg.com/1200x/a9/ca/43/a9ca43f1aa039283467ec6fc9388d4f3.jpg" alt="Descrierea Pozei">
             </div>
             <div class="section-content">
               <p>Textul pentru Khwarazmian se va încărca din text.txt.</p>
             </div>
           </section>
-          
-          <!-- O altă secțiune -->
-          <section id="alta-sectie">
+
+          <!-- Secțiunea Volga -->
+          <section id="volga">
             <div class="section-header">
-              <h1>Altă Secțiune</h1>
+              <h1>Invazia mongolă din Volga, Bulgaria</h1>
               <hr class="separator thick">
-              <p class="info">Data, Locație (opțional)</p>
+              <p class="info">1 Ianuarie 1223, Bolgar, Republica Tatarstan</p>
               <hr class="separator">
+              <img class="centered-image popup-enabled" src="https://i.pinimg.com/1200x/82/b3/a4/82b3a441cb1201e18c6facc37914b218.jpg" alt="Descrierea Pozei">
             </div>
             <div class="section-content">
-              <p>Textul pentru altă secțiune se va încărca din text.txt.</p>
+              <p>Textul pentru Volga se va încărca din text.txt.</p>
             </div>
           </section>
+          <!-- Secțiunea kalka -->
+          <section id="kalka">
+            <div class="section-header">
+              <h1>Bătălia de pe râul Kalka</h1>
+              <hr class="separator thick">
+              <p class="info">31 Mai 1223, Râul Kalka, Donetsk Oblast</p>
+              <hr class="separator">
+              <img class="centered-image popup-enabled" src="https://i.pinimg.com/1200x/82/b3/a4/82b3a441cb1201e18c6facc37914b218.jpg" alt="Descrierea Pozei">
+            </div>
+            <div class="section-content">
+              <p>Textul pentru Volga se va încărca din text.txt.</p>
+            </div>
+          </section>
+          
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Containerul hărții: poziționat fix în partea dreaptă -->
+  
+  <!-- Containerul hărții (opțional) -->
   <div id="map"></div>
   
   <!-- Popup pentru imagine -->
@@ -102,12 +119,9 @@
     <img id="popupImage" src="" alt="Zoom Image">
   </div>
   
-  <!-- Scripturile -->
-  <!-- particles.js -->
+  <!-- Scripturile (JS-ul gestionează popup-ul, harta etc.) -->
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <!-- JS Leaflet -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <!-- Scriptul propriu -->
   <script src="scripts.js"></script>
 </body>
 </html>
