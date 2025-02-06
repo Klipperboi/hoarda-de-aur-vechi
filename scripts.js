@@ -11,29 +11,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let isSidebarOpen = false;
 
-
-// Definirea locațiilor pentru secțiuni
-var locations = {
-  prolog: { coords: [46, 105], msg: "Prolog – 1206 - 1380, Mongolia" },
-  kulikovo: { coords: [54, 39], msg: "Kulikovo – 8 Septembrie, Rusia" },
-  kalka: { coords: [48, 37], msg: "Kalka - 31 Mai 1223, Ucraina" },
-  tokhtamysh: { coords: [46, 48], msg: "Tokhtamysh - 2 Ianuarie 1381, Astrakhan" },
-  moscova: { coords: [55, 37], msg: "Asediul - 23 August 1382, Moscova" },
-  razboi: { coords: [43, 45], msg: "Războiul - 1 Ianuarie 1386, M-ții Caucaz" },
-  kondurcha: { coords: [54.5, 52.0], msg: "Kondurcha - 18 Iunie 1391, Rusia" },
-  terek: { coords: [43.5402, 45.1698], msg: "Terek - 15 Aprilie 1395, Caucaz" },
-  vorskla: { coords: [50, 35], msg: "Vorskla - 12 August 1399, Ucraina" },
-  declin: { coords: [60, 105], msg: "Declin - 1 Ianuarie 1406, Siberia" },
-  dezintegrare: { coords: [46, 48], msg: "Dezintegrare - 1 Ianuarie 1419, Astrakhan" },
-  lipnic: { coords: [48.3340, 27.8232], msg: "Lipnic - 20 August 1469, Moldova" },
-  sfarsit: { coords: [54.6778, 36.2865], msg: "Sfârșit - 8 August 1480, Râul Ugra" },
-  ultimul: { coords: [54.8985, 23.9036], msg: "Ultimul Khan - 1 Ianuarie 1502, Kaunas" },
-  
-  // Secțiuni suplimentare
-  principal: { coords: [48, 42]},
-  bibliografie: { coords: [44, 41]},
-};
-
+  // Definirea locațiilor pentru secțiuni
+  var locations = {
+    prolog: { coords: [46, 105], msg: "Prolog – 1206 - 1380, Mongolia" },
+    kulikovo: { coords: [54, 39], msg: "Kulikovo – 8 Septembrie, Rusia" },
+    kalka: { coords: [48, 37], msg: "Kalka - 31 Mai 1223, Ucraina" },
+    tokhtamysh: { coords: [46, 48], msg: "Tokhtamysh - 2 Ianuarie 1381, Astrakhan" },
+    moscova: { coords: [55, 37], msg: "Asediul - 23 August 1382, Moscova" },
+    razboi: { coords: [43, 45], msg: "Războiul - 1 Ianuarie 1386, M-ții Caucaz" },
+    kondurcha: { coords: [54.5, 52.0], msg: "Kondurcha - 18 Iunie 1391, Rusia" },
+    terek: { coords: [43.5402, 45.1698], msg: "Terek - 15 Aprilie 1395, Caucaz" },
+    vorskla: { coords: [50, 35], msg: "Vorskla - 12 August 1399, Ucraina" },
+    declin: { coords: [60, 105], msg: "Declin - 1 Ianuarie 1406, Siberia" },
+    dezintegrare: { coords: [46, 48], msg: "Dezintegrare - 1 Ianuarie 1419, Astrakhan" },
+    lipnic: { coords: [48.3340, 27.8232], msg: "Lipnic - 20 August 1469, Moldova" },
+    sfarsit: { coords: [54.6778, 36.2865], msg: "Sfârșit - 8 August 1480, Râul Ugra" },
+    ultimul: { coords: [54.8985, 23.9036], msg: "Ultimul Khan - 1 Ianuarie 1502, Kaunas" },
+    
+    // Secțiuni suplimentare
+    principal: { coords: [48, 42] },
+    bibliografie: { coords: [44, 41] }
+  };
 
   /* ============================
      Funcții modulare
@@ -93,18 +91,15 @@ var locations = {
 
   // Funcție pentru inițializarea popup-urilor pentru imagini
   function initImagePopups() {
-    // Selectează toate imaginile cu clasa "popup-enabled"
     const images = document.querySelectorAll('img.popup-enabled');
     images.forEach(img => {
       img.addEventListener('click', function() {
         popupImage.src = this.src;
-        // Afișează popup-ul (CSS-ul gestionează centrare cu flex)
         popup.style.display = 'flex';
         document.body.style.overflow = 'hidden';
       });
     });
 
-    // Evenimente pentru închiderea popup-ului
     if (closePopup) {
       closePopup.addEventListener('click', function() {
         popup.style.display = 'none';
@@ -145,7 +140,6 @@ var locations = {
       }
     }
 
-    // Actualizează linkurile active din cuprins
     function updateActiveLink(activeId) {
       document.querySelectorAll('.dropdown-content a[data-loc]').forEach(function(link) {
         if (link.dataset.loc === activeId) {
@@ -156,7 +150,6 @@ var locations = {
       });
     }
 
-    // Eveniment pentru linkurile din dropdown-ul "Cuprins"
     var cuprinsLinks = document.querySelectorAll('.dropdown-content a[data-loc]');
     cuprinsLinks.forEach(function(link) {
       link.addEventListener('click', function(e) {
@@ -177,7 +170,6 @@ var locations = {
       });
     });
 
-    // Observator pentru secțiuni (folosind IntersectionObserver)
     const observerOptions = { root: null, threshold: 0.5 };
     const observerCallback = (entries, observer) => {
       entries.forEach(entry => {
@@ -200,7 +192,6 @@ var locations = {
       observer.observe(section);
     });
 
-    // Toggle pentru afișarea/ascunderea hărții
     toggleMapBtn.addEventListener('click', function() {
       var mapContainer = document.getElementById('map');
       if (mapContainer.style.display === "none" || mapContainer.style.display === "") {
@@ -225,21 +216,19 @@ var locations = {
       })
       .then(text => {
         console.log("Conținutul fișierului text.txt:", text);
-        // Parsează fișierul folosind expresia regulată
         const regex = /--([\w-]+)--\s*([\s\S]*?)(?=--[\w-]+--|$)/g;
         let match;
         while ((match = regex.exec(text)) !== null) {
           const sectionId = match[1].trim();
           const content = match[2].trim();
           console.log(`Secțiune găsită: ${sectionId} cu conținut: ${content}`);
-
           const sectionElement = document.getElementById(sectionId);
           if (sectionElement) {
             let contentElement = sectionElement.querySelector('.section-content p');
             if (!contentElement) {
               contentElement = sectionElement;
             }
-contentElement.innerHTML = content;
+            contentElement.innerHTML = content;
             console.log(`Textul pentru secțiunea "${sectionId}" a fost actualizat.`);
           } else {
             console.warn(`Secțiunea cu id-ul "${sectionId}" nu a fost găsită în HTML.`);
@@ -249,17 +238,14 @@ contentElement.innerHTML = content;
       .catch(error => console.error("Eroare la încărcarea sau procesarea fișierului text.txt:", error));
   }
 
-  /* ============================
-     Inițializări
-  ============================ */
+  /* Inițializări */
   initSidebar();
   loadParticles('light');
   particlesJSBackground.style.backgroundColor = '#f4f4f4';
-  initImagePopups(); // Activează popup pentru imaginile cu clasa "popup-enabled"
+  initImagePopups();
   initMap();
   initTextSections();
 
-  // Eveniment pentru schimbarea modului (light/dark)
   if (modeToggle) {
     modeToggle.addEventListener('click', function() {
       document.body.classList.toggle('dark-mode');
@@ -272,4 +258,19 @@ contentElement.innerHTML = content;
       }
     });
   }
+
+  // Eveniment pentru afișarea/ascunderea videoclipurilor
+  document.querySelectorAll('.toggleVideo').forEach(function(button) {
+    button.addEventListener('click', function() {
+      // Găsește elementul videoContainer frate imediat
+      var videoContainer = this.nextElementSibling;
+      if (videoContainer.style.display === "none" || videoContainer.style.display === "") {
+        videoContainer.style.display = "block";
+        this.textContent = "Ascunde Video";
+      } else {
+        videoContainer.style.display = "none";
+        this.textContent = "Arată Video";
+      }
+    });
+  });
 });
