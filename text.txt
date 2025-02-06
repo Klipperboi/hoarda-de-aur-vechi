@@ -68,12 +68,12 @@ a rezistat asaltului, după care atacul său frontal brusc a pus pe fugă trupel
 
 --terek--
 Bătălia râului Terek a fost ultima bătălie majoră din războiul Tokhtamysh-Timur și a avut loc pe râul Terek, în Caucazul de Nord. 
-<span class="tooltip" data-info="Timur a reușit să extindă influența teritorială, preluând controlul asupra Azerbaidjanului <span class="note">(10)</span>.">(a luat) azerbaidjanul</span> după această confruntare. Rezultatul a fost o victorie pentru Timur.
+<span class="note">(10)</span>.">a luat azerbaidjanul după această confruntare. Rezultatul a fost o victorie pentru Timur.
 
 --vorskla--
 Bătălia de pe râul Vorskla a fost o mare bătălie în istoria medievală a Europei de Est. S-a luptat la 12 august 1399 între tătari, sub Edigu și Temur Qutlugh, și 
-armatele lui Tokhtamysh și forțele <span class="tooltip" data-info="Această etichetă se referă la o combinație de trăsături militare moscovite și lituaniene.">(moscovit-) lituanian</span> 
-ale <span class="tooltip" data-info="Termenul evidențiază puterea militară specifică a statului lituanian.">al (lituaniei)</span>, cu o victorie decisivă tătară.
+armatele lui Tokhtamysh și forțele moscovit-lituanian
+ale al lituaniei, cu o victorie decisivă tătară.
 
 --declin--
 Intră și exacerbând conflictul cu fostul său protector Timur, Tokhtamysh a stabilit un curs pentru distrugerea tuturor realizărilor sale și pentru propria sa distrugere. 
@@ -111,6 +111,7 @@ De asemenea, intervenția imperiului otoman a marcat o schimbare, iar în cele d
 <b>5.</b>	Lemerle, P., <i>Istoria Bizanţului</i>, Bucureşti, 1998<br>
 <b>6.</b>	Sacerdoteanu, Aurelian, <i>Marea invazie tatara si Sud-Estul european</i>, Editura Demiurg, 2010<br>
 <b>7.</b>	Vernadsky,  George, Karpovich, M., <i>The Mongols and Russia</i>, Yale University Press, 1953.<br>
+<b>8.</b>   Imagini © HistoryMaps
 
 <h3>NOTE:</h3>
 <b>1.</b> George Vernadsky, Karpovich, M., <i>The Mongols and Russia</i>, Yale University Press, 1953, p.109
