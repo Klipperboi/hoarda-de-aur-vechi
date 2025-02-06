@@ -1,18 +1,14 @@
 <span class="tooltip" data-info="explicatie">cuvant</span>
 
-
 --principal--
 Hoarda de Aur a fost inițial un hanat mongol și ulterior turcizat, înființat în secolul al XIII-lea și originar ca sectorul de nord-vest al Imperiului Mongol.
-Odată cu fragmentarea Imperiului Mongol după 1259, acesta a devenit un hanat separat funcțional. Este cunoscut și sub numele de Kipchak Khanate sau ca Ulus of Jochi. 
+Odată cu fragmentarea Imperiului Mongol după 1259, acesta a devenit un hanat separat funcțional. Este cunoscut și sub numele de Kipchak Khanate sau ca Ulus of Jochi <span class="note">(1)</span>. 
 După moartea lui Batu Khan (fondatorul Hoardei de Aur) în 1255, dinastia sa a înflorit timp de un secol întreg, până în 1359, deși intrigile lui Nogai au instigat
 un război civil parțial la sfârșitul anilor 1290. Puterea militară a Hoardei a atins apogeul în timpul domniei lui Uzbeg Khan (1312–1341), care a adoptat islamul.
 Teritoriul Hoardei de Aur, la apogeul ei, se întindea din Siberia și Asia Centrală până în părți ale Europei de Est, de la Urali până la Dunăre în vest și de la
-Marea Neagră până la Marea Caspică la sud, învecinandu-se cu Munții Caucaz și teritoriile dinastiei mongole cunoscute sub numele de 
-<span class="tooltip" data-info="Hanat mongol din Persia, fondat de Hülegü.">Ilkhanat</span>.
+Marea Neagră până la Marea Caspică la sud, învecinandu-se cu Munții Caucaz și teritoriile dinastiei mongole cunoscute sub numele de Ilkhanat <span class="note">(2)</span>.
 Hanatul a experimentat dezordine politică internă violentă începând cu 1359, înainte de a se reuni pentru scurt timp (1381–1395) sub Tokhtamysh. 
-Cu toate acestea, la scurt timp după invazia din 1396 a lui 
-<span class="tooltip" data-info="Conducător mongol și fondatorul Imperiului Timurid">Timur</span>, fondatorul Imperiului Timurid, Hoarda de Aur 
-s-a spart în hanate tătare mai mici, 
+Cu toate acestea, la scurt timp după invazia din 1396 a lui Timur, fondatorul Imperiului Timurid, Hoarda de Aur s-a spart în hanate tătare mai mici, 
 care au scăzut constant în putere. La începutul secolului al XV-lea, Hoarda a început să se destrame. Până în 1466, era denumită pur și simplu „Marea Hoardă”. 
 În teritoriile sale au apărut numeroase hanate predominant vorbitoare de turcă.
 
@@ -21,13 +17,14 @@ care au scăzut constant în putere. La începutul secolului al XV-lea, Hoarda a
 Orientul Mijlociu și Europa de Est. În această perioadă, în urma campaniilor militare conduse de generalul Subotai și de alți comandanți, mongolii au înfrânt 
 importante puteri regionale, inclusiv Imperiul Khwarazmian și alianțele rusești de pe râul Kalka. Această serie de victorii militare a pus bazele formării unor 
 entități administrative distincte în cadrul imperiului mongol.
-După moartea lui Genghis Han, imperiul a fost împărțit între fiii și nepoții săi, iar în anul 1242, sub conducerea lui Batu Han, Hoarda de Aur a fost oficial 
-înființată, devenind una dintre cele mai puternice ramuri ale mongolilor. Hoarda de Aur controla un teritoriu vast, ce se întindea de la stepele Volgăi și regiunile 
-sudice ale Rusiei până la munții Caucaz și Marea Neagră.
+După moartea lui Genghis Han, imperiul a fost împărțit între fiii și nepoții săi, iar în anul 1242, sub conducerea lui Batu Khan, Hoarda de Aur a fost oficial 
+înființată, devenind una dintre cele mai puternice ramuri ale mongolilor <span class="note">(3)</span>. Hoarda de Aur controla un teritoriu vast, ce se întindea de la stepele Volgăi și regiunile 
+sudice ale Rusiei până la Munții Caucaz și Marea Neagră.
+
 În perioada de apogeu, Hoarda de Aur s-a remarcat printr-un sistem administrativ și economic eficient. Drumurile comerciale, în special cele care făceau parte din 
 Drumul Mătăsii, au asigurat o circulație constantă a bunurilor, a tehnologiilor și a culturilor, ceea ce a contribuit la o prosperitate economică durabilă. Sub domnia 
-hanilor precum Berkă Han și Ozbeg Han, hoarda a promovat comerțul internațional, stabilitatea politică și o toleranță religioasă relativă, devenind o punte între 
-civilizațiile estice și cele vestice.
+hanilor precum Berkă Khan și Ozbeg Khan, hoarda a promovat comerțul internațional, stabilitatea politică și o toleranță religioasă relativă, devenind o punte între 
+civilizațiile estice și cele vestice <span class="note">(4)</span>.
 Această perioadă de prosperitate a fost susținută de un control ferm asupra vasalilor, inclusiv asupra principatelor rusești, care plăteau tribut pentru a-și menține 
 autonomia. Cu toate acestea, tensiunile politice interne, precum și amenințările externe, aveau să pună treptat capăt acestei stabilități, conducând în cele din urmă 
 la declinul inevitabil al Hoardei de Aur.
@@ -35,7 +32,7 @@ la declinul inevitabil al Hoardei de Aur.
 --kulikovo--
 Bătălia de la Kulikovo a fost purtată între armatele Hoardei de Aur, sub comanda lui Mamai, și diferite principate rusești, sub comanda unită a prințului 
 Dmitri al Moscovei. Bătălia a avut loc la 8 septembrie 1380, la Câmpul Kulikovo de lângă râul Don (acum Oblast Tula, Rusia) și a fost câștigată de Dmitri, 
-care a devenit cunoscut sub numele de Donskoy, „al Don” după bătălie. Deși victoria nu a pus capăt dominației mongole asupra Rusiei, este considerată pe scară 
+care a devenit cunoscut sub numele de Donskoy, „al Don” după bătălie <span class="note">(5)</span>. Deși victoria nu a pus capăt dominației mongole asupra Rusiei, este considerată pe scară 
 largă de către istoricii ruși drept punctul de cotitură în care influența mongolă a început să scadă și puterea Moscovei a început să crească. Procesul a dus 
 în cele din urmă la independența Marelui Ducat al Moscovei și la formarea statului rus modern.
 
@@ -44,7 +41,7 @@ Bătălia de pe râul Kalka din 1381 a fost purtată între stăpânii războini
 și a devenit singurul conducător al Hoardei. Mamai a avut anterior control de facto asupra Hoardei, dar controlul lui a început să se prăbușească când Toqtamish din 
 Hoarda Albă a invadat. În același timp, prinții Rus s-au răzvrătit împotriva stăpânirii mongole, înlăturând o sursă valoroasă de venit fiscal din Mamai. Mamai a 
 invadat Rus, dar a fost învins la celebra bătălie de la Kulikovo. Între timp, Toqtamish din est a pus mâna pe capitala Hoardei de Aur, Sarai. Mamai și-a folosit 
-banii rămași pentru a strânge o mică armată și l-a întâlnit pe Toqtamish în regiunea din jurul nordului râurilor Doneț și Kalka. Nu au rămas detalii despre bătălie, 
+banii rămași pentru a strânge o mică armată și l-a întâlnit pe Toqtamish în regiunea din jurul nordului râurilor Doneț și Kalka <span class="note">(6)</span>. Nu au rămas detalii despre bătălie, 
 dar Toqtamish, care probabil avea o armată mai mare, a câștigat o victorie decisivă. Ulterior a preluat Hoarda de Aur.
 
 --tokhtamysh--
@@ -54,64 +51,79 @@ stăpân pe aripa stângă (estică), fostul Ulus al Ordei (numit Hoarda Albă �
 o lungă perioadă de diviziune și conflicte intestine.
 
 --moscova--
-Asediul Moscovei din 1382 a fost o bătălie între forțele moscovite și Tokhtamysh, hanul Hoardei de Aur susținut de Timur . Înfrângerea Rusiei a reafirmat stăpânirea 
-Hoardei asupra unora dintre ținuturile rusești, care a răsturnat stăpânirea tătară 98 de ani mai târziu, prin marea stație de pe râul Ugra. De asemenea, Tokhtamysh 
-a restabilit Hoarda de Aur ca putere regională dominantă, a reunit ținuturile mongole din Crimeea până la Lacul Balkash și a învins lituanienii la Poltava în anul 
-următor. Cu toate acestea, a luat decizia dezastruoasă de a duce un război împotriva fostului său stăpân, Tamerlan, iar Hoarda de Aur nu și-a revenit niciodată.
+Asediul Moscovei din 1382 a fost o bătălie între forțele moscovite și Tokhtamysh <span class="note">(7)</span>, hanul Hoardei de Aur, Marelui Ducat al Moscovei, sustinut de Timur și intervenția prinții Rus. 
+Înfrângerea Rusiei a reafirmat stăpânirea Hoardei asupra unora dintre ținuturile rusești, care a răsturnat stăpânirea tătară 98 de ani mai târziu, prin marea stație de pe râul Ugra. 
+De asemenea, Tokhtamysh a restabilit Hoarda de Aur ca putere regională dominantă, a reunit ținuturile mongole din Crimeea până la Lacul Balkash și a invins lituanienii la Poltava în anul următor. 
+Cu toate acestea, a luat decizia dezastruoasă de a duce un război împotriva fostului său stăpân, Tamerlan, iar Hoarda de Aur nu și-a revenit niciodată.
 
 --razboi--
-Războiul Tokhtamysh-Timur a fost purtat din 1386 până în 1395 între Tokhtamysh, hanul Hoardei de Aur, și stăpânul și cuceritorul Timur , fondatorul Imperiului Timurid, 
-în zonele din munții Caucaz, Turkistan și Europa de Est. Bătălia dintre cei doi conducători mongoli a jucat un rol cheie în declinul puterii mongole asupra principatelor 
+Războiul Tokhtamysh-Timur a fost purtat din 1386 până în 1395 între Tokhtamysh, hanul Hoardei de Aur, și stăpânul și cuceritorul Timur, fondatorul Imperiului Timurid, 
+în zonele din Munții Caucaz, Turkistan și Europa de Est <span class="note">(8)</span>. Bătălia dintre cei doi conducători mongoli a jucat un rol cheie în declinul puterii mongole asupra principatelor 
 ruse timpurii.
 
 --kondurcha--
-Bătălia de pe râul Kondurcha a fost prima bătălie majoră a războiului Tokhtamysh- Timur . A avut loc la râul Kondurcha, în Ulusul Bulgar al Hoardei de Aur, în ceea ce 
-astăzi este regiunea Samara din Rusia. Cavaleria lui Tokhtamysh a încercat să încercuiască armata lui Timur de pe flancuri. Cu toate acestea, armata din Asia Centrală 
-a rezistat asaltului, după care atacul său frontal brusc a pus pe fugă trupele Hoardei. Cu toate acestea, multe dintre trupele Hoardei de Aur au evadat pentru a lupta 
-din nou la Terek. Timur îl ajutase anterior pe Tokhtamysh să preia tronul Hoardei Albe în 1378. În anii următori, ambii bărbați au crescut la putere, Tokhtamysh preia 
-controlul deplin asupra Hoardei de Aur, în timp ce Timur și-a extins puterea în tot Orientul Mijlociu. Cu toate acestea, Timur a luat Azerbaidjanul , despre care 
-Tokhtamysh credea că era pe drept teritoriu al Hoardei de Aur. A invadat teritoriul Timurid, asediind pentru scurt timp Samarkand înainte de a fi alungat de Timur. 
-Timur l-a urmărit pe Tokhtamysh până când acesta din urmă s-a întors să lupte cu el lângă râul Kondurcha.
+Bătălia de pe râul Kondurcha a fost prima bătălie majoră a războiului Tokhtamysh-Timur. A avut loc la râul Kondurcha, în Ulusul Bulgar al Hoardei de Aur, în ceea ce 
+astăzi este regiunea Samara din Rusia <span class="note">(9)</span>. Cavaleria lui Tokhtamysh a încercat să încercuiască armata lui Timur de pe flancuri. Cu toate acestea, armata din Asia Centrală 
+a rezistat asaltului, după care atacul său frontal brusc a pus pe fugă trupele Hoardei.
 
 --terek--
-Bătălia râului Terek a fost ultima bătălie majoră din războiul Tokhtamysh-Timur și a avut loc pe râul Terek, Caucazul de Nord. Rezultatul a fost o victorie pentru Timur.
+Bătălia râului Terek a fost ultima bătălie majoră din războiul Tokhtamysh-Timur și a avut loc pe râul Terek, în Caucazul de Nord. 
+<span class="tooltip" data-info="Timur a reușit să extindă influența teritorială, preluând controlul asupra Azerbaidjanului <span class="note">(10)</span>.">(a luat) azerbaidjanul</span> după această confruntare. Rezultatul a fost o victorie pentru Timur.
 
 --vorskla--
 Bătălia de pe râul Vorskla a fost o mare bătălie în istoria medievală a Europei de Est. S-a luptat la 12 august 1399 între tătari, sub Edigu și Temur Qutlugh, și 
-armatele lui Tokhtamysh și Marele Duce Vytautas al Lituaniei . Bătălia s-a încheiat cu o victorie decisivă tătară.
+armatele lui Tokhtamysh și forțele <span class="tooltip" data-info="Această etichetă se referă la o combinație de trăsături militare moscovite și lituaniene.">(moscovit-) lituanian</span> 
+ale <span class="tooltip" data-info="Termenul evidențiază puterea militară specifică a statului lituanian.">al (lituaniei)</span>, cu o victorie decisivă tătară.
 
 --declin--
-Intră și exacerbând conflictul cu fostul său protector Timur , Tokhtamysh a stabilit un curs pentru distrugerea tuturor realizărilor sale și pentru propria sa 
-distrugere. Autoritatea lui Tokhtamysh a suferit eșecuri severe de cele două mari invazii ale lui Timur în teritoriile de bază ale Hoardei de Aur în 1391 și 
-1395–1396. Acestea l-au lăsat pe Tokhtamysh să concureze cu hanii rivali, în cele din urmă alungandu-l definitiv și urmărindu-l până la moartea sa la Sibir în 
-1406. Relativa solidificare a autorității hanului de către Tokhtamysh i-a supraviețuit doar pentru scurt timp și în mare parte datorită influenței nemesisului 
-său Edigu; dar după 1411 a făcut loc unei alte perioade lungi de război civil care s-a încheiat cu dezintegrarea Hoardei de Aur. Mai mult, distrugerea de către 
-Timur a principalelor centre urbane ale Hoardei de Aur, precum și a coloniei italiene Tana, a dat o lovitură severă și de durată economiei bazate pe comerț a 
-politicii, cu diverse implicații negative pentru perspectivele sale viitoare de prosperitate și supraviețuire.
+Intră și exacerbând conflictul cu fostul său protector Timur, Tokhtamysh a stabilit un curs pentru distrugerea tuturor realizărilor sale și pentru propria sa distrugere. 
+Autoritatea lui Tokhtamysh a suferit eșecuri severe din cauza celor două mari invazii ale lui Timur în teritoriile de bază ale Hoardei de Aur (în 1391 și 1395–1396), 
+lăsându-l să concureze cu hanii rivali, până când a fost alungat definitiv și urmărit până la moartea sa la Siber în 1406 <span class="note">(11)</span>. Consolidarea autorității lui Tokhtamysh 
+a durat doar o perioadă scurtă, influențată de rivalitățile interne și de intervențiile externe, iar, după 1411, a urmat o lungă perioadă de război civil care a dus la 
+dezintegrarea Hoardei de Aur. Distrugerea principalelor centre urbane și a coloniei italiene Tana a afectat profund economia bazată pe comerț a hanatului.
 
 --dezintegrare--
-După 1419, Hoarda de Aur a încetat funcțional să mai existe. Ulugh Muhammad a fost oficial Khan al Hoardei de Aur, dar autoritatea sa a fost limitată la malurile 
-inferioare ale Volgăi, unde a domnit și celălalt fiu al lui Tokhtamysh, Kepek. Influența Hoardei de Aur a fost înlocuită în Europa de Est de Marele Ducat al Lituaniei, 
-către care Ulugh Muhammad a apelat pentru sprijin.
+După 1419, Hoarda de Aur a încetat să mai funcționeze ca entitate unificată. Ulugh Muhammad a fost desemnat Khan, însă autoritatea sa s-a limitat la malurile inferioare 
+ale Volgăi, unde a domnit și fiul lui Tokhtamysh, Kepek. Influența Hoardei de Aur a fost treptat înlocuită în Europa de Est de către Marele Ducat al Lituaniei, către 
+care Ulugh Muhammad a apelat pentru sprijin.
 
 --lipnic--
-Bătălia de la Lipnic (sau Lipnica, sau Lipniți) a fost o bătălie între forțele moldovenești sub conducerea lui Ștefan cel Mare și tătarii din Volga ai Hoardei de Aur 
-conduse de Ahmed Khan și care a avut loc la 20 august 1470.
+Bătălia de la Lipnic (sau Lipnica, sau Lipniți) a fost purtată între forțele moldovenești conduse de Ștefan cel Mare și tătarii din Volga, sub conducerea lui Ahmed Khan, 
+la 20 august 1470 <span class="note">(12)</span>.
 
 --sfarsit--
-Marea Stand pe râul Ugra a fost o confruntare între forțele lui Akhmat Khan din Marea Hoardă și Marele Prinț Ivan al III-lea al Moscoviei în 1480 pe malul râului 
-Ugra, care s-a încheiat când tătarii au plecat fără conflict. Este văzut în istoriografia rusă ca sfârșitul stăpânirii tătarilor/mongolului asupra Moscovei.
+Marea Stand pe râul Ugra a fost o confruntare între forțele lui Akhmat Khan din Marea Hoardă și Marele Prinț Ivan al III-lea al Moscovei în 1480 <span class="note">(13)</span>, care s-a încheiat 
+fără un conflict major, când tătarii s-au retras. Această înfrângere este privită în istoriografia rusă ca sfârșitul dominației tătare/mongole asupra Moscovei.
 
 --ultimul--
-În 1500, s-a reluat războiul moscovit- lituanian . Lituania s-a aliat din nou cu Marea Hoardă. În 1501, Khan Sheikh Ahmed a atacat forțele moscovite lângă Rylsk,
- Novhorod-Siverskyi și Starodub. Marele Duce lituanian Alexander Jagiellon a fost preocupat de succesiunea sa în Regatul Poloniei și nu a participat la campanie. 
- O iarnă aspră, combinată cu arderea stepei de către Meñli I Giray, hanul Hanatului Crimeei, a dus la foamete în rândul forțelor lui Sheikh Ahmed. Mulți dintre 
- oamenii săi l-au părăsit, iar restul a fost învins pe râul Sula în iunie 1502.
-Șeicul Ahmed a fost forțat în exil. A căutat refugiu la Imperiul Otoman sau o alianță cu Marele Ducat al Moscovei, înainte de a apela la Marele Ducat al Lituaniei. 
-În loc să-și ajute fostul aliat, Marele Ducat l-a închis pe șeicul Ahmed timp de peste 20 de ani. El a fost folosit ca monedă de schimb în negocierile cu Hanatul 
-Crimeei: dacă hanatul nu se comporta, șeicul Ahmed va fi eliberat și își va relua războiul cu hanatul.
-După bătălia de la Olshanitsa din ianuarie 1527, șeicul Ahmed a fost eliberat din închisoare. Se spune că a reușit să preia puterea în Hanatul Astrahan. 
-A murit în jurul anului 1529.
+În 1500, s-a reluat războiul moscovit-lituanian. Lituania s-a aliat din nou cu Marea Hoardă. În 1501, Khan Sheikh Ahmed a atacat forțele moscovite lângă Rylsk, 
+Novhorod-Siverskyi și Starodub <span class="note">(14)</span>. Marele Duce lituanian Alexander Jagiellon, preocupat de succesiunea sa în regatul poloniei, nu a participat la campanie. O iarnă aspră, combinată cu arderea stepei de către Meñli I Giray, 
+hanul Hanatului Crimeei, a dus la foamete în rândul forțelor lui Sheikh Ahmed. Mulți dintre oamenii săi l-au părăsit, iar restul a fost învins pe râul Sula în iunie 1502.
+De asemenea, intervenția imperiului otoman a marcat o schimbare, iar în cele din urmă, puterea a fost consolidată de marele ducat al moscovei.
 
 --bibliografie--
-lorem ipsum
+
+<h3>BIBLIOGRAFIE:</h3>
+<b>1.</b>	Ciocîltan, V., <i>Mongolii şi Marea Neagră în secolele XIII–XIV. Contribuţia cinghizhanizilor la transformarea bazinului pontic în placă turnantă a comerţului euroasiatic</i>, Bucureşti, 1998. <br>
+<b>2.</b>	Ciucălău, Daniel, <i>Hoarda de Aur și spațiul nord dunărean la începutul statalității românești</i>, revista „Acta Moldaviae Septentrionalis”, numerele VII-VIII.<br>
+<b>3.</b>	Gonta, Alexandru I., <i>Romanii si Hoarda de Aur 1241-1502</i>, Editură Casa Editorială Demiurg, 2010. <br>
+<b>4.</b>	Grecov, B.D  și  Iacubovschi, A.I., <i>Hoara de Aur și decăderea ei</i>, Editura de Stat pentru Literatura Științifică, 1953.<br>
+<b>5.</b>	Lemerle, P., <i>Istoria Bizanţului</i>, Bucureşti, 1998<br>
+<b>6.</b>	Sacerdoteanu, Aurelian, <i>Marea invazie tatara si Sud-Estul european</i>, Editura Demiurg, 2010<br>
+<b>7.</b>	Vernadsky,  George, Karpovich, M., <i>The Mongols and Russia</i>, Yale University Press, 1953.<br>
+
+<h3>NOTE:</h3>
+<b>1.</b> George Vernadsky, Karpovich, M., <i>The Mongols and Russia</i>, Yale University Press, 1953, p.109
+<br><b>2.</b> Daniel Ciucălău, <i>Hoarda de Aur și spațiul nord dunărean la începutul statalității românești, revista „Acta Moldaviae Septentrionalis”</i>, p. 34
+<br><b>3.</b> Aurelian Sacerdoteanu, <i>Marea invazie tatara si Sud-Estul european</i>, Editura Demiurg, 2010, p. 97
+<br><b>4.</b> P. Lemerle, <i>Istoria Bizanţului</i>, Bucureşti, 1998, p.126
+<br><b>5.</b> Daniel Ciucălău, op.cit., p.78
+<br><b>6.</b> V. Ciocîltan, <i>Mongolii şi Marea Neagră în secolele XIII–XIV. Contribuţia cinghizhanizilor la transformarea bazinului pontic în placă turnantă a comerţului euroasiatic</i>, Bucureşti, 1998, p.123
+<br><b>7.</b> Ibidem, p.179
+<br><b>8.</b> Gonta, Alexandru I., <i>Romanii si Hoarda de Aur 1241-1502</i>, Editură Casa Editorială Demiurg , 2010, p.210
+<br><b>9.</b> Aurelian Sacerdoteanu, op. cit. , p.177
+<br><b>10.</b> Ibidem, p.181
+<br><b>11.</b> B. D. Grecov  și A.I. Iacubovschi, <i>Hoarda de Aur și decăderea ei</i>, Editura de Stat pentru Literatura Științifică, 1953, p.221
+<br><b>12.</b> Ibidem, p.241
+<br><b>13.</b> Daniel Ciucălău, op.cit., p.178
+<br><b>14.</b> Ibidem, p.211
