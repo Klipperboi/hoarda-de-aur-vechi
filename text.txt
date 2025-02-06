@@ -17,38 +17,101 @@ care au scăzut constant în putere. La începutul secolului al XV-lea, Hoarda a
 În teritoriile sale au apărut numeroase hanate predominant vorbitoare de turcă.
 
 --prolog--
-La moartea sa în 1227, Genghis Khan a împărțit Imperiul Mongol între cei patru fii ai săi ca apanagi, dar Imperiul a rămas unit sub hanul suprem. Jochi era cel mai mare, dar a murit cu șase luni înaintea lui Genghis. Cele mai vestice ținuturi ocupate de mongoli, care includeau ceea ce este astăzi sudul Rusiei și Kazahstanul , au fost date fiilor mai mari ai lui Jochi, Batu Khan, care a devenit în cele din urmă conducător al Hoardei Albastre, și Orda Khan, care a devenit liderul Hoardei Albe.
-Se spune că numele Hoardă de Aur a fost inspirat de culoarea aurie a corturilor în care trăiau mongolii în timpul războiului sau de un cort de aur folosit de Batu Khan sau de Uzbek Khan, sau că a fost dăruit de afluenții slavi pentru a descrie marea bogăție a khanului.
+În anul 1206, sub conducerea vizionară a lui Genghis Han, Imperiul Mongol începea o expansiune fără precedent, cucerind vaste teritorii din Asia Centrală, 
+Orientul Mijlociu și Europa de Est. În această perioadă, în urma campaniilor militare conduse de generalul Subotai și de alți comandanți, mongolii au înfrânt 
+importante puteri regionale, inclusiv Imperiul Khwarazmian și alianțele rusești de pe râul Kalka. Această serie de victorii militare a pus bazele formării unor 
+entități administrative distincte în cadrul imperiului mongol.
+După moartea lui Genghis Han, imperiul a fost împărțit între fiii și nepoții săi, iar în anul 1242, sub conducerea lui Batu Han, Hoarda de Aur a fost oficial 
+înființată, devenind una dintre cele mai puternice ramuri ale mongolilor. Hoarda de Aur controla un teritoriu vast, ce se întindea de la stepele Volgăi și regiunile 
+sudice ale Rusiei până la munții Caucaz și Marea Neagră.
+În perioada de apogeu, Hoarda de Aur s-a remarcat printr-un sistem administrativ și economic eficient. Drumurile comerciale, în special cele care făceau parte din 
+Drumul Mătăsii, au asigurat o circulație constantă a bunurilor, a tehnologiilor și a culturilor, ceea ce a contribuit la o prosperitate economică durabilă. Sub domnia 
+hanilor precum Berkă Han și Ozbeg Han, hoarda a promovat comerțul internațional, stabilitatea politică și o toleranță religioasă relativă, devenind o punte între 
+civilizațiile estice și cele vestice.
+Această perioadă de prosperitate a fost susținută de un control ferm asupra vasalilor, inclusiv asupra principatelor rusești, care plăteau tribut pentru a-și menține 
+autonomia. Cu toate acestea, tensiunile politice interne, precum și amenințările externe, aveau să pună treptat capăt acestei stabilități, conducând în cele din urmă 
+la declinul inevitabil al Hoardei de Aur.
 
---khwarazmian--
-Cucerirea mongolă a Khwarezmia a avut loc între 1219 și 1221, când trupele Imperiului Mongol sub Genghis Khan au invadat pământurile Imperiului Khwarazmian din Asia Centrală. Campania, care a urmat anexării hanatului Qara Khitai, a cunoscut o devastare pe scară largă, inclusiv numeroase crime de război și a marcat finalizarea cuceririi mongole a Asiei Centrale.
-Ambii beligeranți, deși mari, se formaseră recent: dinastia Khwarazmian se extinsese din patria lor pentru a înlocui Imperiul Selgiuk la sfârșitul anilor 1100 și începutul anilor 1200; aproape simultan, Genghis Khan a unificat popoarele mongole și a cucerit dinastia Xia de Vest. Deși relațiile au fost inițial cordiale, Genghis a fost supărat de o serie de provocări diplomatice. Când un înalt diplomat mongol a fost executat de Khwarazmshah Muhammed al II-lea, hanul și-a mobilizat forțele, estimate a fi între 90.000 și 200.000 de oameni, și a invadat. Forțele șahului erau larg dispersate și probabil depășite numeric - realizând dezavantajul său, el a decis să-și garnizozeze orașele în mod individual pentru a-i împotmoli pe mongoli. Cu toate acestea, printr-o organizare și o planificare excelentă, ei au reușit să izoleze și să cucerească orașele Transoxiane Bukhara, Samarkand și Gurganj.
-Genghis și fiul său cel mic Tolui au pustiit apoi Khorasanul, distrugând Herat, Nișapur și Merv, trei dintre cele mai mari orașe din lume. Între timp, Muhammed al II-lea a fost forțat să fugă de generalii mongoli Subutai și Jebe; neputând să ajungă la niciun bastioane de sprijin, a murit sărac pe o insulă din Marea Caspică. Fiul și moștenitorul său Jalal-al Din a reușit să mobilizeze forțe substanțiale, învingând un general mongol în bătălia de la Parwan; a fost totuși zdrobit de Genghis însuși în bătălia de la Indus câteva luni mai târziu.
-
---volga--
-Invazia mongolă din Volga Bulgaria a durat din 1223 până în 1236. Statul bulgar, centrat în Volga de jos și Kama, a fost centrul comerțului cu blănuri în Eurasia de-a lungul celei mai mari a istoriei sale. Înainte de cucerirea mongolă, rușii din Novgorod și Vladimir au jefuit și au atacat în mod repetat zona, slăbind astfel economia și puterea militară a statului bulgar. Mai multe ciocniri au avut loc între 1229–1234, iar Imperiul Mongol i-a cucerit pe bulgari în 1236.
+--kulikovo--
+Bătălia de la Kulikovo a fost purtată între armatele Hoardei de Aur, sub comanda lui Mamai, și diferite principate rusești, sub comanda unită a prințului 
+Dmitri al Moscovei. Bătălia a avut loc la 8 septembrie 1380, la Câmpul Kulikovo de lângă râul Don (acum Oblast Tula, Rusia) și a fost câștigată de Dmitri, 
+care a devenit cunoscut sub numele de Donskoy, „al Don” după bătălie. Deși victoria nu a pus capăt dominației mongole asupra Rusiei, este considerată pe scară 
+largă de către istoricii ruși drept punctul de cotitură în care influența mongolă a început să scadă și puterea Moscovei a început să crească. Procesul a dus 
+în cele din urmă la independența Marelui Ducat al Moscovei și la formarea statului rus modern.
 
 --kalka--
-În urma invaziei mongole din Asia Centrală și a prăbușirii ulterioare a Imperiului Khwarezmian, o forță mongolă sub comanda generalilor Jebe și Subutai a avansat în Irak-i Ajam. Jebe a cerut permisiunea împăratului mongol , Genghis Khan , de a-și continua cuceririle timp de câțiva ani înainte de a se întoarce în armata principală prin Caucaz.
-Bătălia de pe râul Kalka a fost purtată între Imperiul Mongol, ale cărui armate erau conduse de Jebe și Subutai cel viteaz, și o coaliție a mai multor principate ale Rusiei , inclusiv Kiev și Halych, și Cumani . Ei erau sub comanda comună a lui Mstislav cel Îndrăzneț și Mstislav al III-lea al Kievului. Bătălia a fost purtată la 31 mai 1223 pe malul râului Kalka în actuala regiune Donețk, Ucraina , și s-a încheiat cu o victorie decisivă a mongolului.
+Bătălia de pe râul Kalka din 1381 a fost purtată între stăpânii războinici mongoli Mamai și Toqtamish pentru controlul Hoardei de Aur. Toqtamish a fost învingătorul 
+și a devenit singurul conducător al Hoardei. Mamai a avut anterior control de facto asupra Hoardei, dar controlul lui a început să se prăbușească când Toqtamish din 
+Hoarda Albă a invadat. În același timp, prinții Rus s-au răzvrătit împotriva stăpânirii mongole, înlăturând o sursă valoroasă de venit fiscal din Mamai. Mamai a 
+invadat Rus, dar a fost învins la celebra bătălie de la Kulikovo. Între timp, Toqtamish din est a pus mâna pe capitala Hoardei de Aur, Sarai. Mamai și-a folosit 
+banii rămași pentru a strânge o mică armată și l-a întâlnit pe Toqtamish în regiunea din jurul nordului râurilor Doneț și Kalka. Nu au rămas detalii despre bătălie, 
+dar Toqtamish, care probabil avea o armată mai mare, a câștigat o victorie decisivă. Ulterior a preluat Hoarda de Aur.
 
---rusia kiev--
-Imperiul Mongol a invadat și cucerit Rusia Kieveană în secolul al XIII-lea, distrugând numeroase orașe, inclusiv Ryazan, Kolomna, Moscova, Vladimir și Kiev, singurele orașe mari care au scăpat de distrugere fiind Novgorod și Pskov.
-Campania a fost anunțată de bătălia râului Kalka din mai 1223, care a avut ca rezultat o victorie mongolă asupra forțelor mai multor principate ale Rusiei. Mongolii s-au retras, după ce și-au adunat informațiile care era scopul recunoașterii în forță.
-A urmat o invazie pe scară largă a Rus' de către Batu Khan, din 1237 până în 1242. Invazia a fost încheiată prin procesul de succesiune mongolă la moartea lui Ögedei Khan. Toate principatele Rusiei au fost nevoite să se supună stăpânirii mongole și au devenit vasali ai Hoardei de Aur, dintre care unele au durat până în 1480. Invazia, facilitată de începutul destrămarii Rusiei Kievene în secolul al XIII-lea, a avut ramificații profunde pentru istoria Europei de Est, inclusiv împărțirea poporului slav de est în trei națiuni separate: Rusia actuală, Ucraina și Belarus și ascensiunea Marelui Ducat al Moscovei.
+--tokhtamysh--
+Tokhtamysh devenise un monarh puternic, primul khan din peste două decenii care a condus ambele jumătăți (aripi) ale Hoardei de Aur. În puțin peste un an, se făcuse 
+stăpân pe aripa stângă (estică), fostul Ulus al Ordei (numit Hoarda Albă în unele surse persane și Hoarda Albastră în cele turcești), iar apoi și stăpânul aripa dreaptă 
+(vestică), Ulus of Batu (numită Hoarda Albastră în unele surse persane și Hoarda Albă în cele turcești). Aceasta promitea să restabilească măreția Hoardei de Aur după 
+o lungă perioadă de diviziune și conflicte intestine.
 
---ryazan--
-În toamna anului 1237, Hoarda Mongolă condusă de Batu Khan a invadat principatul Ryazan al Rusiei . Prințul de Ryazan, Iuri Igorevici, i-a cerut ajutor lui Iuri Vsevolodovici, prințul lui Vladimir, dar nu a primit niciunul. Ryazan, capitala Principatului Ryazan, a fost primul oraș rus care a fost asediat de invadatorii mongoli sub Batu Khan. Scriitorul cronicii Rus a descris consecințele bătăliei cu cuvintele „N-a mai rămas nimeni să geme și să plângă”.
+--moscova--
+Asediul Moscovei din 1382 a fost o bătălie între forțele moscovite și Tokhtamysh, hanul Hoardei de Aur susținut de Timur . Înfrângerea Rusiei a reafirmat stăpânirea 
+Hoardei asupra unora dintre ținuturile rusești, care a răsturnat stăpânirea tătară 98 de ani mai târziu, prin marea stație de pe râul Ugra. De asemenea, Tokhtamysh 
+a restabilit Hoarda de Aur ca putere regională dominantă, a reunit ținuturile mongole din Crimeea până la Lacul Balkash și a învins lituanienii la Poltava în anul 
+următor. Cu toate acestea, a luat decizia dezastruoasă de a duce un război împotriva fostului său stăpân, Tamerlan, iar Hoarda de Aur nu și-a revenit niciodată.
 
---sit--
-După ce mongolii și-au jefuit capitala Vladimir, Yuri a fugit peste Volga spre nord, la Yaroslavl, unde și-a adunat în grabă o armată. El și frații săi s-au întors apoi spre Vladimir în speranța că vor elibera orașul înainte ca mongolii să-l cuprindă, dar au fost prea târziu. Yuri a trimis o forță de 3.000 de oameni sub conducerea lui Dorojh să cerceteze unde erau mongolii; după care Doroj s-a întors spunând că Yuri și forța sa erau deja înconjurate. În timp ce încerca să-și adune forțele, a fost atacat de forțele mongole sub Burundai și a fugit, dar a fost depășit pe râul Sit și a murit acolo împreună cu nepotul său, prințul Vsevolod de Yaroslavl.
-Bătălia râului Sit a avut loc în partea de nord a actualului district Sonkovsky din regiunea Tver din Rusia, aproape de seloul Bozhonka, la 4 martie 1238, între hoardele mongole din Batu Khan și Rusia sub Grand. Prințul Yuri al II-lea de Vladimir-Suzdal în timpul invaziei mongole a Rusiei . Bătălia a marcat sfârșitul rezistenței unificate față de mongoli și a inaugurat două secole de dominație mongolă a Rusiei și Ucrainei moderne.
+--razboi--
+Războiul Tokhtamysh-Timur a fost purtat din 1386 până în 1395 între Tokhtamysh, hanul Hoardei de Aur, și stăpânul și cuceritorul Timur , fondatorul Imperiului Timurid, 
+în zonele din munții Caucaz, Turkistan și Europa de Est. Bătălia dintre cei doi conducători mongoli a jucat un rol cheie în declinul puterii mongole asupra principatelor 
+ruse timpurii.
 
---kozelsk--
-Luând orașul Torzhok la 5 martie 1238, după un asediu de două săptămâni, mongolii au continuat spre Novgorod. Cu toate acestea, nu au reușit să ajungă în oraș, în principal pentru că au avut dificultăți în deplasarea în pădure și, după ce au înaintat în jur de 100 de kilometri în locul necunoscut desemnat în cronici drept Crucea Ignach, au abandonat planurile de cucerire a Novgorodului, s-au întors spre sud și împărțit în două grupe. Unele dintre forțele conduse de Kadan și Storms au trecut peste ruta de Est prin ținutul Ryazan. Principalele forțe conduse de Batu Khan au trecut prin Dolgomost la 30 km est de Smolensk, apoi au intrat în Principatul Cernigov pe Gums de sus, au ars Vșchij, dar apoi s-au întors brusc spre nord-est, ocolind Bryansk și Karachev, la sfârșitul lunii martie 1238 au plecat. până la Kozelsk de pe râul Zhizdra.
-La acea vreme, orașul era capitala Principatului în fruntea prințului Vasily, în vârstă de doisprezece ani, nepotul lui Mstislav Svyatoslavich de Cernigov, care a fost ucis în bătălia de la Kalka în 1223. Orașul era bine fortificat: înconjurat de metereze. au construit pe ele ziduri, dar mongolii aveau echipamente puternice de asediu.
-Asediul de la Kozelsk a fost unul dintre principalele evenimente ale Marșului de Vest (Kipchak) al mongolilor (1236–1242) și al invaziei mongole a Rusiei (1237–1240) la sfârșitul campaniei mongole din nord-estul Rusiei ( 1237–1238). Mongolii au asediat în primăvara anului 1238 și în cele din urmă au cucerit și distrus orașul Kozelsk, unul dintre centrele princiare subsidiare ale Principatului Cernigov.
+--kondurcha--
+Bătălia de pe râul Kondurcha a fost prima bătălie majoră a războiului Tokhtamysh- Timur . A avut loc la râul Kondurcha, în Ulusul Bulgar al Hoardei de Aur, în ceea ce 
+astăzi este regiunea Samara din Rusia. Cavaleria lui Tokhtamysh a încercat să încercuiască armata lui Timur de pe flancuri. Cu toate acestea, armata din Asia Centrală 
+a rezistat asaltului, după care atacul său frontal brusc a pus pe fugă trupele Hoardei. Cu toate acestea, multe dintre trupele Hoardei de Aur au evadat pentru a lupta 
+din nou la Terek. Timur îl ajutase anterior pe Tokhtamysh să preia tronul Hoardei Albe în 1378. În anii următori, ambii bărbați au crescut la putere, Tokhtamysh preia 
+controlul deplin asupra Hoardei de Aur, în timp ce Timur și-a extins puterea în tot Orientul Mijlociu. Cu toate acestea, Timur a luat Azerbaidjanul , despre care 
+Tokhtamysh credea că era pe drept teritoriu al Hoardei de Aur. A invadat teritoriul Timurid, asediind pentru scurt timp Samarkand înainte de a fi alungat de Timur. 
+Timur l-a urmărit pe Tokhtamysh până când acesta din urmă s-a întors să lupte cu el lângă râul Kondurcha.
 
---chernigov--
-Invazia mongolă din Rus' poate fi împărțită în două faze. În iarna anilor 1237-1238, au cucerit teritoriile din nordul Rusiei (principatele Ryazan și Vladimir-Suzdal), cu excepția Republicii Novgorod, dar în primăvara anului 1238 s-au retras înapoi în Câmpurile Sălbatice. A doua campanie, care vizează teritoriile din sudul Rusiei (principatele Cernigov și Kiev) a avut loc în 1239. Sacrul Cernigovului a făcut parte din invazia mongolă a Rusului.
+--terek--
+Bătălia râului Terek a fost ultima bătălie majoră din războiul Tokhtamysh-Timur și a avut loc pe râul Terek, Caucazul de Nord. Rezultatul a fost o victorie pentru Timur.
 
+--vorskla--
+Bătălia de pe râul Vorskla a fost o mare bătălie în istoria medievală a Europei de Est. S-a luptat la 12 august 1399 între tătari, sub Edigu și Temur Qutlugh, și 
+armatele lui Tokhtamysh și Marele Duce Vytautas al Lituaniei . Bătălia s-a încheiat cu o victorie decisivă tătară.
+
+--declin--
+Intră și exacerbând conflictul cu fostul său protector Timur , Tokhtamysh a stabilit un curs pentru distrugerea tuturor realizărilor sale și pentru propria sa 
+distrugere. Autoritatea lui Tokhtamysh a suferit eșecuri severe de cele două mari invazii ale lui Timur în teritoriile de bază ale Hoardei de Aur în 1391 și 
+1395–1396. Acestea l-au lăsat pe Tokhtamysh să concureze cu hanii rivali, în cele din urmă alungandu-l definitiv și urmărindu-l până la moartea sa la Sibir în 
+1406. Relativa solidificare a autorității hanului de către Tokhtamysh i-a supraviețuit doar pentru scurt timp și în mare parte datorită influenței nemesisului 
+său Edigu; dar după 1411 a făcut loc unei alte perioade lungi de război civil care s-a încheiat cu dezintegrarea Hoardei de Aur. Mai mult, distrugerea de către 
+Timur a principalelor centre urbane ale Hoardei de Aur, precum și a coloniei italiene Tana, a dat o lovitură severă și de durată economiei bazate pe comerț a 
+politicii, cu diverse implicații negative pentru perspectivele sale viitoare de prosperitate și supraviețuire.
+
+--dezintegrare--
+După 1419, Hoarda de Aur a încetat funcțional să mai existe. Ulugh Muhammad a fost oficial Khan al Hoardei de Aur, dar autoritatea sa a fost limitată la malurile 
+inferioare ale Volgăi, unde a domnit și celălalt fiu al lui Tokhtamysh, Kepek. Influența Hoardei de Aur a fost înlocuită în Europa de Est de Marele Ducat al Lituaniei, 
+către care Ulugh Muhammad a apelat pentru sprijin.
+
+--lipnic--
+Bătălia de la Lipnic (sau Lipnica, sau Lipniți) a fost o bătălie între forțele moldovenești sub conducerea lui Ștefan cel Mare și tătarii din Volga ai Hoardei de Aur 
+conduse de Ahmed Khan și care a avut loc la 20 august 1470.
+
+--sfarsit--
+Marea Stand pe râul Ugra a fost o confruntare între forțele lui Akhmat Khan din Marea Hoardă și Marele Prinț Ivan al III-lea al Moscoviei în 1480 pe malul râului 
+Ugra, care s-a încheiat când tătarii au plecat fără conflict. Este văzut în istoriografia rusă ca sfârșitul stăpânirii tătarilor/mongolului asupra Moscovei.
+
+--ultimul--
+În 1500, s-a reluat războiul moscovit- lituanian . Lituania s-a aliat din nou cu Marea Hoardă. În 1501, Khan Sheikh Ahmed a atacat forțele moscovite lângă Rylsk,
+ Novhorod-Siverskyi și Starodub. Marele Duce lituanian Alexander Jagiellon a fost preocupat de succesiunea sa în Regatul Poloniei și nu a participat la campanie. 
+ O iarnă aspră, combinată cu arderea stepei de către Meñli I Giray, hanul Hanatului Crimeei, a dus la foamete în rândul forțelor lui Sheikh Ahmed. Mulți dintre 
+ oamenii săi l-au părăsit, iar restul a fost învins pe râul Sula în iunie 1502.
+Șeicul Ahmed a fost forțat în exil. A căutat refugiu la Imperiul Otoman sau o alianță cu Marele Ducat al Moscovei, înainte de a apela la Marele Ducat al Lituaniei. 
+În loc să-și ajute fostul aliat, Marele Ducat l-a închis pe șeicul Ahmed timp de peste 20 de ani. El a fost folosit ca monedă de schimb în negocierile cu Hanatul 
+Crimeei: dacă hanatul nu se comporta, șeicul Ahmed va fi eliberat și își va relua războiul cu hanatul.
+După bătălia de la Olshanitsa din ianuarie 1527, șeicul Ahmed a fost eliberat din închisoare. Se spune că a reușit să preia puterea în Hanatul Astrahan. 
+A murit în jurul anului 1529.
+
+--bibliografie--
+lorem ipsum
