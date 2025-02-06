@@ -14,11 +14,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Definirea locațiilor pentru secțiuni
 var locations = {
-  prolog: { coords: [46, 105], msg: "Prolog – 18 August 1206, Mongolia" },
-  khwarazmian: { coords: [45, 90], msg: "Khwarazmian – 1 Ianuarie 1219, Asia centrală" },
-  kalka: { coords: [48, 37], msg: "Kalka - 31 Mai 1223, Donetsk Oblast" },
-  volga: { coords: [57, 32], msg: "Volga - 1 Ianuarie 1223, Tatarstann" }
+  prolog: { coords: [46, 105], msg: "Prolog – 1206 - 1380, Mongolia" },
+  kulikovo: { coords: [54, 39], msg: "Kulikovo – 8 Septembrie, Rusia" },
+  kalka: { coords: [48, 37], msg: "Kalka - 31 Mai 1223, Ucraina" },
+  tokhtamysh: { coords: [46, 48], msg: "Tokhtamysh - 2 Ianuarie 1381, Astrakhan" },
+  moscova: { coords: [55, 37], msg: "Asediul - 23 August 1382, Moscova" },
+  razboi: { coords: [43, 45], msg: "Războiul - 1 Ianuarie 1386, M-ții Caucaz" },
+  kondurcha: { coords: [54.5, 52.0], msg: "Kondurcha - 18 Iunie 1391, Rusia" },
+  terek: { coords: [43.5402, 45.1698], msg: "Terek - 15 Aprilie 1395, Caucaz" },
+  vorskla: { coords: [50, 35], msg: "Vorskla - 12 August 1399, Ucraina" },
+  declin: { coords: [60, 105], msg: "Declin - 1 Ianuarie 1406, Siberia" },
+  dezintegrare: { coords: [46, 48], msg: "Dezintegrare - 1 Ianuarie 1419, Astrakhan" },
+  lipnic: { coords: [48.3340, 27.8232], msg: "Lipnic - 20 August 1469, Moldova" },
+  sfarsit: { coords: [54.6778, 36.2865], msg: "Sfârșit - 8 August 1480, Râul Ugra" },
+  ultimul: { coords: [54.8985, 23.9036], msg: "Ultimul Khan - 1 Ianuarie 1502, Kaunas" },
+  
+  // Secțiuni suplimentare
+  principal: { coords: [48, 42]},
+  bibliografie: { coords: [44, 41]},
 };
+
 
   /* ============================
      Funcții modulare
