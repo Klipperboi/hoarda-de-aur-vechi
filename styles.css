@@ -319,3 +319,8 @@ header h1 {
   opacity: 1;
   visibility: visible;
 }
+
+.note {
+  color: red; /* Culoarea roșie pentru numerele de referință */
+  font-weight: bold; /* Grosimea fontului pentru a le evidenția */
+}
