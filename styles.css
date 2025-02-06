@@ -140,8 +140,14 @@ body.dark-mode .text-section {
 #menuToggle:hover,
 .dropbtn:hover,
 .dropdown-content a:hover {
+  color: white !important;
   background-color: #ed143d;
 }
+
+.dropdown-content a.active-link:hover {
+  color: white !important;
+}
+
 
 .dropdown-content a.active-link {
   color: #ed143d;
