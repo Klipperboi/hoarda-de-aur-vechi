@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     vorskla: { coords: [50, 35], msg: "Vorskla - 12 August 1399, Ucraina" },
     declin: { coords: [60, 105], msg: "Declin - 1 Ianuarie 1406, Siberia" },
     dezintegrare: { coords: [46, 48], msg: "Dezintegrare - 1 Ianuarie 1419, Astrakhan" },
-    lipnic: { coords: [48.3340, 27.8232], msg: "Lipnic - 20 August 1469, Moldova" },
+    lipnic: { coords: [53, 17], msg: "Lipnic - 20 August 1469, Polonia" },
     sfarsit: { coords: [54.6778, 36.2865], msg: "Sfârșit - 8 August 1480, Râul Ugra" },
     ultimul: { coords: [54.8985, 23.9036], msg: "Ultimul Khan - 1 Ianuarie 1502, Kaunas" },
     
