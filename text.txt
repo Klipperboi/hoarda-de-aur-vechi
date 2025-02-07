@@ -127,6 +127,6 @@ De asemenea, intervenția imperiului otoman a marcat o schimbare, iar în cele d
 <br><b>11.</b> B. D. Grecov  și A.I. Iacubovschi, <i>Hoarda de Aur și decăderea ei</i>, Editura de Stat pentru Literatura Științifică, 1953, p.221
 <br><b>12.</b> Ibidem, p.241
 <br><b>13.</b> Daniel Ciucălău, op.cit., p.178
-<br><b>14.</b> Ibidem, p.211
+<br><b>14.</b> Ibidem, p.211<br>
 
-<a href="https://github.com/Klipperboi/hoarda-de-aur">Sursă</a>
+<a href="https://github.com/Klipperboi/hoarda-de-aur">Cod Sursă (Github)</a>
